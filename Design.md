@@ -17,11 +17,15 @@ Gymnastics Nelson needs a list of tasks that parents and gymnasts can select and
 
 ### End-User Requirements
 
-Replace this text with a description of your typical end-users and their specific needs / expectations / requirements.
+The clients of the business will be parents or gymnasts who want to help out in Gymnastics Nelson.
+The clients want a way to see the list of tasks and when it needs to be done. They could do this via computor or mobile phone, but they might not be experienced using technology, so they system needs to be easy to use and requires no experience.
 
 ### Proposed Solution
 
-Replace this text with a brief statement about the system that you intend to create, including the key functionality it should have.
+The proposed solution is having a website for Gymnastics Nelson that allows gymnastics coaches, parents, and gymnasts to view a list of tasks and sign up for them.
+The website will also allow the coaches to modify, add, or delete tasks.
+Clients should be able to sign up for a task and see what tasks they have signed up for.
+The couches should be able to add delete, and modify tasks.
 
 
 -------------------------------------------------
@@ -62,7 +66,7 @@ End-user is relevant to my website because I need to know who my end-users are a
 
 When designing my website I will need to ensure that I know as much as I can about my end-users. I will need to use language that is appropriate to my end-users age. I will design it in a way that will work on the devices that my end-users are likely to use. I will use feedback to improve my design.
 
-### IMPLICATION NAME HERE
+### Social
 
 The social implications of a digital outcome involve how it affects users, the wider community and society as a whole.
 
