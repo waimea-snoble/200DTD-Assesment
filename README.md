@@ -7,7 +7,7 @@ This project is a system that will allow a user to select a task at Gymnastics N
 ![Alt text](images/Balance+Beam.png)
 
 ## Features
-- Allows the user to sign upo for a task.
+- Allows the user to sign up for a task.
 - Allows users see what task they are doing and the date it is happening/needs to be done.
 - Allows the admin to add and delete tasks.
 - Allows the user to remove themselves from a task.

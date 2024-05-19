@@ -15,13 +15,16 @@ Assessment Standards: **91892** and **91893**
 
 Designing the database
 
-![database](database-design.png)
+Today I designed the first database draft 
+
+![Database](images/database-design.png)
 
 ### DATE HERE
 
-Replace this test with what you are working on
+Created UI flowchart
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Today I made the first flowchart draft so i could see how the website would work
+![UI flowchart](images/flowchart.png)
 
 ### DATE HERE
 
