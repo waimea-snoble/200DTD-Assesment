@@ -19,18 +19,20 @@ Today I designed the first database draft
 
 ![Database](images/database-design.png)
 
-### DATE HERE
+### 20/05/2024
 
 Created UI flowchart
 
 Today I made the first flowchart draft so i could see how the website would work
 ![UI flowchart](images/flowchart.png)
 
-### DATE HERE
+### 20/05/2024
 
-Replace this test with what you are working on
+Created first figma design
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Today I drafted the first figma UI design
+
+![Figma design first draft](images/Figma-design.png)
 
 ### DATE HERE
 
