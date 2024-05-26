@@ -4,7 +4,7 @@
 
 This project is a system that will allow a user to select a task at Gymnastics Nelson that needs to be done for an event.
 
-![Alt text](images/Balance+Beam.png)
+![Alt text](images/balance+Beam.png)
 
 ## Features
 - Allows the user to sign up for a task.
