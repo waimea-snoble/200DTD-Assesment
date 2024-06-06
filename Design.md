@@ -18,13 +18,17 @@ Gymnastics Nelson needs a list of tasks that parents and gymnasts can select and
 ### End-User Requirements
 
 The clients of the business will be parents or gymnasts who want to help out in Gymnastics Nelson.
+
 The clients want a way to see the list of tasks and when it needs to be done. They could do this via computor or mobile phone, but they might not be experienced using technology, so they system needs to be easy to use and requires no experience.
 
 ### Proposed Solution
 
 The proposed solution is having a website for Gymnastics Nelson that allows gymnastics coaches, parents, and gymnasts to view a list of tasks and sign up for them.
+
 The website will also allow the coaches to modify, add, or delete tasks.
+
 Clients should be able to sign up for a task and see what tasks they have signed up for.
+
 The couches should be able to add delete, and modify tasks.
 
 
