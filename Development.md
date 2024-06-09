@@ -56,16 +56,16 @@ Today I am finishing the admin log in page.
 I finished the admin login page, finishing the delete task button and adding an add task button. I also made it so the admin can click on a task to see the people doing that task, as well as their contact information.
 
 ![Alt text](images/flowchartv2.png)
-Today I have also changer the flowchart to show that the admin can view what people are doing the task.
+Today I have also changed the flowchart to show that the admin can view what people are doing the task.
 
 ### 30/05/2024
 
 I got feedback from my client and they said
 >When the admin is deleting a task instead of having the task confirmation on a new page, just have it on the same page
 
-![Alt text](image.png)
+![Alt text](images/figma-UI-designv4.png)
 
-I responded to this feedback by doing what they said and making it overlap the page.
+I responded to this feedback by doing what they said and making the it overlap the page.
 
 ### DATE HERE
 
