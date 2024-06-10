@@ -67,7 +67,7 @@ I got feedback from my client and they said
 
 I responded to this feedback by doing what they said and making the it overlap the page.
 
-### 10/06/2024
+### 11/06/2024
 
 I got more feedback from my client and they said
 >It would be useful if there was a way to split the tasks into categories so it is easier for the admin to see the tasks that people have signed up for and what category it falls under. This will help if there are any gaps to target helpers in specific areas.
@@ -75,6 +75,9 @@ I got more feedback from my client and they said
 My client also said
 >I felt that the login at the top of the page might be confusing for volunteers signing up for the tasks, as they might feel that they have to login.
 Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+
+![Alt text](images/figma-UI-designv5.png)
+I listened to my client and moved the login button to the bottom of the page and changed the name to admin login. I also made sure there was a category list to make it easier for the end-user to book a task that they want to do. I also made it so when the admin is adding a task they can choose a category that the task will go into.
 
 ### DATE HERE
 
