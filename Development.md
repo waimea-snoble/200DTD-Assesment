@@ -61,16 +61,19 @@ Today I have also changed the flowchart to show that the admin can view what peo
 ### 30/05/2024
 
 I got feedback from my client and they said
->When the admin is deleting a task instead of having the task confirmation on a new page, just have it on the same page
+>When the admin is deleting a task instead of having the task confirmation on a new page, just have it on the same page. This is because it looks less confusing when it is kept on the same page.
 
 ![Alt text](images/figma-UI-designv4.png)
 
 I responded to this feedback by doing what they said and making the it overlap the page.
 
-### DATE HERE
+### 10/06/2024
 
-Replace this test with what you are working on
+I got more feedback from my client and they said
+>It would be useful if there was a way to split the tasks into categories so it is easier for the admin to see the tasks that people have signed up for and what category it falls under. This will help if there are any gaps to target helpers in specific areas.
 
+My client also said
+>I felt that the login at the top of the page might be confusing for volunteers signing up for the tasks, as they might feel that they have to login.
 Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
 
 ### DATE HERE
