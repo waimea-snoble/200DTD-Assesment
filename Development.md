@@ -45,17 +45,17 @@ I responded to this feedback by removing the surname option and just having full
 ![Database design v2](images/database-designv2.png)
 Since my client wanted the end-user to input their full name and email, I needed to change the database design
 
-![Alt text](images/figma-UI%20designv2.png)
+![Figma UI design v2](images/figma-UI%20designv2.png)
 Today I added an option for the admin to login, but I couldn't finish the delete task button. I also added the date next to the task. Accidentally clicked on the top task button, not meant to have blue outline.
 
 ### 27/05/2024
 
 Today I am finishing the admin log in page.
 
-![Alt text](images/figma-UI-designv3.png)
+![Figma UI design v3](images/figma-UI-designv3.png)
 I finished the admin login page, finishing the delete task button and adding an add task button. I also made it so the admin can click on a task to see the people doing that task, as well as their contact information.
 
-![Alt text](images/flowchartv2.png)
+![Flowchart v2](images/flowchartv2.png)
 Today I have also changed the flowchart to show that the admin can view what people are doing the task.
 
 ### 30/05/2024
@@ -63,7 +63,7 @@ Today I have also changed the flowchart to show that the admin can view what peo
 I got feedback from my client and they said
 >When the admin is deleting a task instead of having the task confirmation on a new page, just have it on the same page. This is because it looks less confusing when it is kept on the same page.
 
-![Alt text](images/figma-UI-designv4.png)
+![Figma UI design v4](images/figma-UI-designv4.png)
 
 I responded to this feedback by doing what they said and making the it overlap the page.
 
@@ -76,11 +76,15 @@ My client also said
 >I felt that the login at the top of the page might be confusing for volunteers signing up for the tasks, as they might feel that they have to login.
 Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
 
-![Alt text](images/figma-UI-designv5.png)
+![Figma UI design v5](images/figma-UI-designv5.png)
 I listened to my client and moved the login button to the bottom of the page and changed the name to admin login. I also made sure there was a category list to make it easier for the end-user to book a task that they want to do. I also made it so when the admin is adding a task they can choose a category that the task will go into.
 
-### DATE HERE
+![Database design v3](images/database-designv3.png)
+I changed the database so that a task can belong to a category.
 
-Replace this test with what you are working on
+### 13/06/2024
+
+My client said
+>That looks good and will work nicely, I am happy with the result.
 
 Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
