@@ -74,7 +74,6 @@ I got more feedback from my client and they said
 
 My client also said
 >I felt that the login at the top of the page might be confusing for volunteers signing up for the tasks, as they might feel that they have to login.
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
 
 ![Figma UI design v5](images/figma-UI-designv5.png)
 I listened to my client and moved the login button to the bottom of the page and changed the name to admin login. I also made sure there was a category list to make it easier for the end-user to book a task that they want to do. I also made it so when the admin is adding a task they can choose a category that the task will go into.
@@ -85,6 +84,9 @@ I changed the database so that a task can belong to a category.
 ### 13/06/2024
 
 My client said
->That looks good and will work nicely, I am happy with the result.
+>The design looks great and it is easy to use. The buttons might look nicer if they were slightly rounded but I think that this will work extremely well with the gymnastics families signing up for tasks needing completed for the gymnastics competition. I am very happy with the result.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+![alt text](images/figma-UI-designv6.png)
+
+I was pleased that my client was happy with the design and decided to slightly round the buttons so they didn't look as rectangular. I decided to leave the boxes in the forms when the user is inputing text. 
+
