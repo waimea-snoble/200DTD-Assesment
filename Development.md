@@ -90,3 +90,18 @@ My client said
 
 I was pleased that my client was happy with the design and decided to slightly round the buttons so they didn't look as rectangular. I decided to leave the boxes in the forms when the user is inputing text. 
 
+# 14/06/2024
+
+My client and I discussed about what colours to use for the design.
+My client said
+>I would like the colours of the website to incorporate the samecolours as the Gymnastics Nelson logo which is blue, red and white. I feel that this would be important in retaining the Gymnastics Nelson identity.
+
+We talked about where to put the colours and decided on this
+![Figma UI design with colour](images/figma-UI-design-colour.png)
+
+My client also said
+>I loved the red buttons on some of the pages however there isn't red on every page, it might be nice to have a thin strip of red under the title.
+
+![Final figma UI design](images/final-figma-UI-design.png)
+
+I responded to my clients feedback by putting a thin strip of red under the title. My client id happy with the final result.
