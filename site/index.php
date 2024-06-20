@@ -9,7 +9,7 @@ echo '<h2>Categories</h2>';
 $db = connectToDB();
 consoleLog($db);
 
-$query = 'SELECT * FROM tasks';
+$query = 'SELECT DISTINCT category FROM tasks';
 
 try {
     $stmt = $db->prepare($query);
@@ -29,7 +29,7 @@ echo '<ul id="category-list">';
 foreach($tasks as $task) {
     echo '<li>';
 
-    echo   '<a href="view-task.php?id=' . $task['id'] . '">';
+    echo   '<a href="task-list.php?cat=' . $task['category'] . '">';
     echo     $task['category'];
     echo   '</a>';
     echo '</li>';
