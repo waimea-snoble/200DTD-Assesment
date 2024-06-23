@@ -28,15 +28,25 @@ try {
     $stmt->execute([$name, $phone, $email]);
     $personID = $db->lastInsertId();
 }
-
-
 catch (PDOException $e) {
-    consoleLog($e->getmessage(), 'DB Booking Add', ERROR);
-    die(' There was an error adding booking data to the database');
+    consoleLog($e->getmessage(), 'DB Person Add', ERROR);
+    die(' There was an error adding person data to the database');
 }
 
 consoleLog("Task ID: " . $taskID);
 consoleLog("Person ID: " . $personID);
+
+$query = 'INSERT INTO bookings (task, person) VALUES (?, ?)';
+//Attempt to run the query
+
+try {
+    $stmt = $db->prepare($query);
+    $stmt->execute([$taskID, $personID]);
+}
+catch (PDOException $e) {
+    consoleLog($e->getmessage(), 'DB Booking Add', ERROR);
+    die(' There was an error adding booking data to the database');
+}
 
 // header('location: index.php');
 
