@@ -2,16 +2,13 @@
 require 'lib/utils.php';
 include 'partials/top.php';
 ?>
-<body>
 
+<nav>
 
-    <nav>
+    <a href="login-form.php" class="<?= $page=='login-form.php' ? 'active' : '' ?>">Admin Login</a>
 
-        <a href="login-form.php" class="<?= $page=='login-form.php' ? 'active' : '' ?>">Admin Login</a>
+</nav>
 
-    </nav>
-
-<main>
         
     <?php
 echo '<h2>Categories</h2>';

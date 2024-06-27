@@ -40,7 +40,7 @@ if ($username == $admin['username'] && $password == $admin['password']) {
 }
 
 else {
-    echo 'Incorrect Username or Password. ';
+    echo ' Incorrect Username or Password. ';
 }
 
 
