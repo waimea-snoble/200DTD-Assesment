@@ -30,7 +30,7 @@ echo '<ul id="task-list">';
 foreach($tasks as $task) {
     echo '<li>';
 
-    echo   '<a href="check-email.php?id=' . $task['id'] . '">';
+    echo   '<a href="email-form.php?task=' . $task['id'] . '">';
     echo     $task['name'];
     echo   '</a>';
     echo ($task['date']);

@@ -1,31 +1,31 @@
 <?php
 require 'lib/utils.php';
-include 'partials/top.php';
 
-echo '<h1>Finding user in the database</h1>';
+consoleLog($_POST);
 
-consoleLog($_POST, 'Post Data');
-
-//Get form data
-$taskId = $_POST['taskID'];
-$email = $_POST['email'];
+$taskId = $_POST['taskID'] ?? null;
+$email = $_POST['email'] ?? null;
 
 
-echo '<p>Email: ' . $email;
-
-//Connect to the database
 $db = connectToDB();
 
-
-$query = 'SELECT * FROM people WHERE email = ?';
-//Attempt to run the query
+$query = 'SELECT id FROM people WHERE email = ?';
 
 try {
     $stmt = $db->prepare($query);
     $stmt->execute([$email]);
-    $personID = $db->lastInsertId();
+    $user = $stmt->fetch();
 }
 catch (PDOException $e) {
-    consoleLog($e->getmessage(), 'DB Person Add', ERROR);
-    die(' There was an error adding person data to the database');
+    consoleLog($e->getmessage(), 'DB User Fetch', ERROR);
+    die('There was an error getting user data from the database');
+}
+
+if (!$user) {
+    // No user exists with that email, so get their details
+    header('location: user-details-form.php?task=' . $taskId);
+}
+else {
+    // User exists, so confirm booking
+    header('location: add-booking.php?task=' . $taskId . '&user=' . $user['id'] );
 }
