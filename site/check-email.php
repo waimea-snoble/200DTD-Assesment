@@ -27,5 +27,7 @@ if (!$user) {
 }
 else {
     // User exists, so confirm booking
-    header('location: add-booking.php?task=' . $taskId . '&user=' . $user['id'] );
+    header('location: index.php?task=' . $taskId . '&user=' . $user['id'] );
+
 }
+

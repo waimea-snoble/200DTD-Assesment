@@ -1,6 +1,6 @@
 <?php
 require 'lib/utils.php';
-include 'partials/top.php';
+include 'partials/top-admin.php';
 
 echo '<h1>Adding task to database</h1>';
 

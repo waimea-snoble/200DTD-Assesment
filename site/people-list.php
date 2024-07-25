@@ -1,23 +1,30 @@
 <?php
 require 'lib/utils.php';
-include 'partials/top.php';
+include 'partials/top-admin.php';
 
-echo '<h2>Categories</h2>';
+echo '<h2>Names</h2>';
 ?>
-<nav>
 
-    <a href="index.php" class="<?= $page=='index.php' ? 'active' : '' ?>">Logout</a>
-
-</nav>
 <?php
-$db = connectToDB();
-consoleLog($db);
+consoleLog($_GET, 'Get Data');
 
-$query = 'SELECT * FROM people WHERE category = ?';
+$taskID = $_GET['id'] ?? null;
+if($taskID == null) die('Invalid task ID');
+
+//Connect to the database
+$db = connectToDB();
+
+
+$query = 'SELECT people.name     AS pname,
+                 people.email    AS pemail
+
+            FROM bookings 
+            JOIN people ON bookings.person = people.id
+            WHERE bookings.task = ?';
 
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute();
+    $stmt->execute([$taskID]);
     $tasks = $stmt->fetchAll();
 }
 catch (PDOException $e) {
@@ -28,16 +35,23 @@ catch (PDOException $e) {
 // See what we got back
 consoleLog($tasks);
 
-echo '<ul id="category-list">';
+echo '<ul id="name-list">';
+
+echo '<table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>';
 
 foreach($tasks as $task) {
-    echo '<li>';
+    echo '<tr>';
+    echo '<td>' . $task['pname'] . '</td>';
+    echo '<td>' . $task['pemail'] . '</td>';
 
-    echo   '<a href="admin-task-list.php?cat=' . $task['category'] . '">';
-    echo     $task['category'];
-    echo   '</a>';
-    echo '</li>';
+    echo '</tr>';
 }
+
+echo '</table>';
 
 echo '</ul>';
 

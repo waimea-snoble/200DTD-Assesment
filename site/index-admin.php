@@ -1,15 +1,17 @@
 <?php
 require 'lib/utils.php';
-include 'partials/top.php';
-
-echo '<h2>Categories</h2>';
+include 'partials/top-admin.php';
 ?>
 <nav>
 
-    <a href="index.php" class="<?= $page=='index.php' ? 'active' : '' ?>">Logout</a>
+<a href="index.php" class="<?= $page=='index.php' ? 'active' : '' ?>">Logout</a>
 
 </nav>
+
+
 <?php
+echo '<h2>Categories</h2>';
+
 $db = connectToDB();
 consoleLog($db);
 

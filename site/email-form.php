@@ -34,6 +34,9 @@ echo '<h1>Sign Up: ' . $task['name'] . '</h1>';
     <input type="submit" value="Submit">
 </form>
 
+
 <?php
+
+echo 'hello';
 include 'partials/bottom.php';
 ?>

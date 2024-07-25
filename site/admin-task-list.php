@@ -1,6 +1,6 @@
 <?php
 require 'lib/utils.php';
-include 'partials/top.php';
+include 'partials/top-admin.php';
 
 echo '<h2>Tasks</h2>';
 
