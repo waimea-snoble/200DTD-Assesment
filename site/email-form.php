@@ -37,6 +37,6 @@ echo '<h1>Sign Up: ' . $task['name'] . '</h1>';
 
 <?php
 
-echo 'hello';
+
 include 'partials/bottom.php';
 ?>

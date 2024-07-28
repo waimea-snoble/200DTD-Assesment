@@ -21,6 +21,8 @@ catch (PDOException $e) {
     die('There was an error getting user data from the database');
 }
 
+
+
 if (!$user) {
     // No user exists with that email, so get their details
     header('location: user-details-form.php?task=' . $taskId);
