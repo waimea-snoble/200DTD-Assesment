@@ -10,6 +10,7 @@ consoleLog($_POST, 'Post Data');
 $name    = $_POST['name'];
 $date = $_POST['date'];
 $category = $_POST['category'];
+//if category = new...
 
 echo '<p>Name: '    . $name;
 echo '<p>Date: ' . $date;
