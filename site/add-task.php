@@ -9,8 +9,15 @@ consoleLog($_POST, 'Post Data');
 //Get form data
 $name    = $_POST['name'];
 $date = $_POST['date'];
-$category = $_POST['category'];
-//if category = new...
+
+//if category == new...
+if ('category' == 'New...') {
+    $category = $_POST['new-category'];
+}
+else {
+    $category = $_POST['category'];
+
+}
 
 echo '<p>Name: '    . $name;
 echo '<p>Date: ' . $date;
