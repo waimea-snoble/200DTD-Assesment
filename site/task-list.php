@@ -22,6 +22,8 @@ catch (PDOException $e) {
     die('There was an error getting service data from the database');
 }
 
+
+
 // See what we got back
 consoleLog($tasks);
 
@@ -33,7 +35,8 @@ foreach($tasks as $task) {
     echo   '<a href="email-form.php?task=' . $task['id'] . '">';
     echo     $task['name'];
     echo   '</a>';
-    echo ($task['date']);
+    echo ($task['date']) . " ";
+    echo 'amount remaining' . " " . ($task['amount']);
     echo '</li>';
 }
 

@@ -33,6 +33,8 @@ catch (PDOException $e) {
     die(' There was an error adding person data to the database');
 }
 
+
+
 consoleLog("Task ID: " . $taskID);
 consoleLog("Person ID: " . $personID);
 

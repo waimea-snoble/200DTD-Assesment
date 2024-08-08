@@ -59,7 +59,8 @@ function openNew() {
 
     <div id="new-category" style="display: none;">
         <label>New Category</label>
-        <input name="newcategory" type="text" placeholder="e.g. food">
+        <input name="new-category" type="text" placeholder="e.g. food">
+
     </div>
 
     <input type="submit" value="Add">

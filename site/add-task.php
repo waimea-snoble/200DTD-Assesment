@@ -9,14 +9,10 @@ consoleLog($_POST, 'Post Data');
 //Get form data
 $name    = $_POST['name'];
 $date = $_POST['date'];
+$category = $_POST['category'];
 
-//if category == new...
-if ('category' == 'New...') {
+if ($category == 'New...') {
     $category = $_POST['new-category'];
-}
-else {
-    $category = $_POST['category'];
-
 }
 
 echo '<p>Name: '    . $name;
@@ -40,6 +36,6 @@ catch (PDOException $e) {
     die(' There was an error adding task data to the database');
 }
 
-header('location: index-admin.php');
+// header('location: index-admin.php');
 
 include 'partials/bottom.php'; ?>

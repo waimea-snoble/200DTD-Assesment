@@ -26,6 +26,8 @@ catch (PDOException $e) {
     die(' There was an error adding booking data to the database');
 }
 
+
+
 echo '<p>Thank you for signing up.</p>';
 // header('location: index.php');
 
