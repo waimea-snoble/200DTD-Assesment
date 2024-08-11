@@ -44,6 +44,9 @@ function openNew() {
     <label>Date</label>
     <input name="date" type="date" required>
 
+    <label>Amount</label>
+    <input name="amount" type="int" required>
+
     <label>Category</label>
     <select name="category" required id="category" onChange="openNew();">
 

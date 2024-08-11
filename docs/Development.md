@@ -105,3 +105,16 @@ My client also said
 ![Final figma UI design](images/final-figma-UI-design.png)
 
 I responded to my clients feedback by putting a thin strip of red under the title. My client id happy with the final result.
+
+
+# 11/08/2024
+I talked to my client and they said
+>I have just realised that there is no limited amount of tasks available. This means 100 people can book the same task which is a problem if there is only 5 people needed.
+
+![Limited number of tasks added to website draft](images/amount-remaining.png)
+
+I listened to my client and added a limit to how many tasks can be booked
+
+![database](images/database.png)
+
+I also needed to add an amount column to the database

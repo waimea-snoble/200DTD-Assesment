@@ -9,7 +9,9 @@ consoleLog($_POST, 'Post Data');
 //Get form data
 $name    = $_POST['name'];
 $date = $_POST['date'];
+$amount = $_POST['amount'];
 $category = $_POST['category'];
+
 
 if ($category == 'New...') {
     $category = $_POST['new-category'];
@@ -17,18 +19,20 @@ if ($category == 'New...') {
 
 echo '<p>Name: '    . $name;
 echo '<p>Date: ' . $date;
+echo '<p>Amount: ' . $amount;
 echo '<p>Category: ' . $category;
+
 
 //Connect to the database
 $db = connectToDB();
 
 
-$query = 'INSERT INTO tasks (name, date, category) VALUES (?, ?, ?)';
+$query = 'INSERT INTO tasks (name, date, amount, category,) VALUES (?, ?, ?, ?)';
 //Attempt to run the query
 
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute([$name, $date, $category]);
+    $stmt->execute([$name, $date, $amount, $category]);
     $tasks = $stmt->fetchAll();
 }
 catch (PDOException $e) {

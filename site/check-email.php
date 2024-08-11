@@ -28,17 +28,7 @@ if (!$user) {
     header('location: user-details-form.php?task=' . $taskId);
 }
 else {
-    $query = 'UPDATE tasks SET amount = amount-1 WHERE id= ?';
-    
-    // Attempt to run the query
-    try {
-        $stmt = $db->prepare($query);
-        $stmt->execute([$taskId]);  //Pass in the data
-    }
-    catch (PDOException $e) {
-        consoleLog($e->getmessage(), 'DB List Fetch', ERROR);
-        die('There was an error updating task data from the database');
-    }
+
     
 
     // User exists, so confirm booking
