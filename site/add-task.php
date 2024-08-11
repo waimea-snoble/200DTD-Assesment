@@ -40,6 +40,6 @@ catch (PDOException $e) {
     die(' There was an error adding task data to the database');
 }
 
-// header('location: index-admin.php');
+header('location: index-admin.php');
 
 include 'partials/bottom.php'; ?>

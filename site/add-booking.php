@@ -18,7 +18,7 @@ $query = 'UPDATE tasks SET amount = amount-1 WHERE id= ?';
 // Attempt to run the query
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute([$taskId]);  // Pass in the data
+    $stmt->execute([$taskID]);  // Pass in the data
 }
 catch (PDOException $e) {
     consoleLog($e->getmessage(), 'DB List Fetch', ERROR);
