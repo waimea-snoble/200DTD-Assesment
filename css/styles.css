@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+}
+
+body {
+    background-color: #333;
+    color: white;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* HEADER ****************************************************/
+
+header {
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: darkslategrey;
+    border-bottom: 1px solid slategrey;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+
+/* NAV ****************************************************/
+
+nav {
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a.active {
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+/* MAIN ****************************************************/
+
+main {
+    flex: 1;
+    padding: 1rem;
+}
+
+
+/* LISTS ****************************************************/
+
+#company-list {
+    list-style: none;
+    padding: 0;
+    width: max-content;
+    margin: 1rem auto;
+}
+
+#company-list li{
+    margin-bottom: 0.3rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: #69c;
+    border-radius: 0.3rem;
+}
+
+#company-list li a {
+    display: block;
+    padding: 0.2rem 0.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+#company-list li:hover {
+    background-color: #f00;
+}
+
+#company-info {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+
+    
+}
+
+#games {
+    border: 3px solid black;
+    padding: 1rem;
+    background-color: grey;
+}
+
+#employees {
+    border: 3px solid black;
+    padding: 1rem;
+    background-color: grey;
+}
+
+/* TABLES ****************************************************/
+table {
+    display: block;
+    width: max-content;
+    border-collapse: collapse;
+    margin: 1rem auto;
+    padding: 1rem;
+ 
+    border: rgb(100, 100, 100) solid 4px;
+    border-radius: 0.3rem;
+ 
+ }
+ 
+ th {
+     padding: 0.3rem 1rem;
+     border: rgb(100, 100, 100) solid 4px;
+     background-color: darkslategrey;
+ }
+ 
+ td {
+     border: rgb(69, 69, 69) solid 4px;
+     padding: 0.2rem 1rem; 
+ }
+/* FORMS**************************************************** */
+
+form {
+    width: max-content;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid #369
+}
+
+label {
+    display: block;
+    color: #9cf
+}
+
+input, select {
+    display: block;
+    font-size: inherit;
+}
+
+input:not(:last-child) {
+    margin-bottom: 1rem;
+}
+/* ADD BUTTON ************************************************/
+
+#add-button {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
+
+#add-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+    background-color: #369;
+    border-radius: 3rem;
+    
+
+}
+
+
+/* FOOTER ****************************************************/
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid slategrey;
+    background-color: darkslategrey;
+    font-size: 0.8rem;
+    color: slategrey;
+}

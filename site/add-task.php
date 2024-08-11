@@ -27,7 +27,7 @@ echo '<p>Category: ' . $category;
 $db = connectToDB();
 
 
-$query = 'INSERT INTO tasks (name, date, amount, category,) VALUES (?, ?, ?, ?)';
+$query = 'INSERT INTO tasks (name, date, amount, category) VALUES (?, ?, ?, ?)';
 //Attempt to run the query
 
 try {
