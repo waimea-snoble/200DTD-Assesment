@@ -106,6 +106,9 @@ My client also said
 
 I responded to my clients feedback by putting a thin strip of red under the title. My client id happy with the final result.
 
+#
+I talked to my client before I started just to see if they had had any thought of any improvements that can be made to the website before I start the first draft and they said
+>I think it will be a good idea to add a home button so the user wont have to click back multiple times to get back to the home page.
 
 # 11/08/2024
 I talked to my client and they said
