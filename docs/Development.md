@@ -110,9 +110,42 @@ I responded to my clients feedback by putting a thin strip of red under the titl
 I talked to my client before I started just to see if they had had any thought of any improvements that can be made to the website before I start the first draft and they said
 >I think it will be a good idea to add a home button so the user wont have to click back multiple times to get back to the home page.
 
+I finished the home page and task page and added a home button to lead back to the home page
+
+![task list](images/task-list.png)
+
+#
+I finished the task booking form
+![task booking form](images/task-signup.png)
+
+
+#
+I added the option for the admin to login
+![admin login](images/admin-login.png)
+
+
+#
+
+Today I finished the admin task list and the list of the people who have booked each task along with their contact information.
+
+#
+
+Today I added the options for the aadmin to delete a task and add a task
+![delete task](images/delete-task.png)
+
+![add task](images/add-task.png)
+
+
+#
+I realised that if a user is signing up for multiple tasks they wont want to fill out the form every time. I changed this by asking the user for only their email when they are signing up for a task. If they have previously signed up for a task they won't need to fill out the form, but if they have not signed for a task they will be asked to fill out their details in the form.
+
+![ask for email](images/email-form.png)
+
+![user details form](images/user-details.png)
+
 # 11/08/2024
-I talked to my client and they said
->I have just realised that there is no limited amount of tasks available. This means 100 people can book the same task which is a problem if there is only 5 people needed.
+Ishowed this initial draft to my client and they said
+>It works very nicely but I have just realised that there is no limited amount of tasks available. This means 100 people can book the same task which is a problem if there is only 5 people needed.
 
 ![Limited number of tasks added to website draft](images/amount-remaining.png)
 

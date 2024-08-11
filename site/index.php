@@ -3,7 +3,11 @@ require 'lib/utils.php';
 include 'partials/top.php';
 ?>
 
+<nav>
 
+    <a href="login-form.php" class="<?= $page=='login-form.php' ? 'active' : '' ?>">Admin Login</a>
+
+</nav>
 
         
     <?php
