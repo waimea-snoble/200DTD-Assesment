@@ -56,8 +56,12 @@ function openNew() {
         echo     $task['category'];  
         echo '</option>';
     }
+
 ?>
+
+
         <option>New...</option>
+
     </select>
 
     <div id="new-category" style="display: none;">
@@ -67,7 +71,7 @@ function openNew() {
     </div>
 
     <input type="submit" value="Add" >
-    <input type="button" value="back" onclick="history.back()" style="color:white"/> 
+    <input type="button" value="back" onclick="history.back()"/> 
 
  
 </form>

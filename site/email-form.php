@@ -21,7 +21,7 @@ catch (PDOException $e) {
     die('There was an error getting task data from the database');
 }
 
-echo '<h1>Sign Up: ' . $task['name'] . '</h1>';
+echo '<h2>Sign Up: ' . $task['name'] . '</h2>';
 ?>
 
 <form method="post" action="check-email.php">
