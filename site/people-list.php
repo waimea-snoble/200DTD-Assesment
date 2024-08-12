@@ -16,7 +16,8 @@ $db = connectToDB();
 
 
 $query = 'SELECT people.name     AS pname,
-                 people.email    AS pemail
+                 people.email    AS pemail,
+                 people.phone    AS pphone
 
             FROM bookings 
             JOIN people ON bookings.person = people.id
@@ -41,12 +42,14 @@ echo '<table>
         <tr>
             <th>Name</th>
             <th>Email</th>
+            <th>Phone</th>
         </tr>';
 
 foreach($tasks as $task) {
     echo '<tr>';
     echo '<td>' . $task['pname'] . '</td>';
     echo '<td>' . $task['pemail'] . '</td>';
+    echo '<td>' . $task['pphone'] . '</td>';
 
     echo '</tr>';
 }

@@ -18,15 +18,18 @@ $page = basename($_SERVER['SCRIPT_NAME']);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= SITE_NAME ?></title>
 
-    <link
-    rel="stylesheet"
-    href="css/styles.css"
-    />
+
 
     <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.blue.min.css"
     />
+
+    <link
+    rel="stylesheet"
+    href="css/styles.css"
+    />
+
 </head>
 
 <body>

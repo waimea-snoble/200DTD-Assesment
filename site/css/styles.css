@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background-color: #333;
+    background-color: #8BB8EF;
     color: white;
     margin: 0;
     min-height: 100vh;
@@ -27,14 +27,15 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: darkslategrey;
-    border-bottom: 1px solid slategrey;
+    background-color: #4872FA;
+    border-bottom: 10px solid #E83C3C;
 }
 
 header h1 {
     margin: 0;
     font-size: 1.6rem;
     font-weight: normal;
+    color: white;
 }
 
 
@@ -70,14 +71,14 @@ main {
 
 /* LISTS ****************************************************/
 
-#company-list {
+#category-list {
     list-style: none;
     padding: 0;
     width: max-content;
     margin: 1rem auto;
 }
 
-#company-list li{
+#category-list li{
     margin-bottom: 0.3rem;
     display: flex;
     width: 100%;
@@ -87,14 +88,42 @@ main {
     border-radius: 0.3rem;
 }
 
-#company-list li a {
+#category-list li a {
     display: block;
     padding: 0.2rem 0.5rem;
     color: white;
     text-decoration: none;
 }
 
-#company-list li:hover {
+#category-list li:hover {
+    background-color: #f00;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+    width: max-content;
+    margin: 1rem auto;
+}
+
+#task-list li{
+    margin-bottom: 0.3rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: #69c;
+    border-radius: 0.3rem;
+}
+
+#task-list li a {
+    display: block;
+    padding: 0.2rem 0.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+#task-list li:hover {
     background-color: #f00;
 }
 
@@ -190,7 +219,7 @@ footer {
     padding: 1rem;
     text-align: center;
     border-top: 1px solid slategrey;
-    background-color: darkslategrey;
+    background-color: #4872FA;
     font-size: 0.8rem;
-    color: slategrey;
+    color: white;
 }
