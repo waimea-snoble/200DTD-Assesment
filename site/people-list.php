@@ -2,7 +2,7 @@
 require 'lib/utils.php';
 include 'partials/top-admin.php';
 
-echo '<h2>Names</h2>';
+echo '<h2>Volunteers</h2>';
 ?>
 
 <?php
@@ -36,31 +36,48 @@ catch (PDOException $e) {
 // See what we got back
 consoleLog($tasks);
 
-echo '<ul id="name-list">';
+// echo '<ul id="name-list">';
 
-echo '<table>
-        <tr>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Phone</th>
-        </tr>';
+// echo '<table>
+//         <tr>
+//             <th>Name</th>
+//             <th>Email</th>
+//             <th>Phone</th>
+//         </tr>';
+
+// foreach($tasks as $task) {
+//     echo '<tr>';
+//     echo '<td>' . $task['pname'] . '</td>';
+//     echo '<td>' . $task['pemail'] . '</td>';
+//     echo '<td>' . $task['pphone'] . '</td>';
+
+//     echo '</tr>';
+// }
+
+// echo '</table>';
+
+
+
+echo '<ul id="people-list">';
 
 foreach($tasks as $task) {
-    echo '<tr>';
-    echo '<td>' . $task['pname'] . '</td>';
-    echo '<td>' . $task['pemail'] . '</td>';
-    echo '<td>' . $task['pphone'] . '</td>';
 
-    echo '</tr>';
+
+    echo '<li>';
+
+    echo 'Name:' . " " . $task['pname'];
+    echo     '<br>';
+    echo 'Email:' . " " . $task['pemail'];
+    echo     '<br>';
+    echo 'Phone:' . " " . $task['pphone'];
+    echo '</li>';
 }
-
-echo '</table>';
 
 echo '</ul>';
 
-echo '<div id="add-button">
-        <a href="add-task-form.php">
-            Add
+echo '<div id="back-button">
+        <a href="javascript:history.back()">
+            Back
         </a>
     </div>';
 

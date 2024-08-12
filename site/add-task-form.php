@@ -39,7 +39,7 @@ function openNew() {
 
 
     <label>Name</label>
-    <input name="name" type="text" placeholder="e.g. bring 500g chedder cheese" required>
+    <input name="name" type="text" placeholder="e.g. 1 large bag of nachos" required>
 
     <label>Date</label>
     <input name="date" type="date" required>
@@ -48,7 +48,7 @@ function openNew() {
     <input name="amount" type="int" required>
 
     <label>Category</label>
-    <select name="category" required id="category" onChange="openNew();">
+    <select name="category" required id="category" onChange="openNew();" style="color:black">
 
 <?php
     foreach($tasks as $task) {
@@ -62,11 +62,12 @@ function openNew() {
 
     <div id="new-category" style="display: none;">
         <label>New Category</label>
-        <input name="new-category" type="text" placeholder="e.g. food">
+        <input name="new-category" type="text" placeholder="e.g. food" style="color:black">
 
     </div>
 
-    <input type="submit" value="Add">
+    <input type="submit" value="Add" >
+    <input type="button" value="back" onclick="history.back()" style="color:white"/> 
 
  
 </form>

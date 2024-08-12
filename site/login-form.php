@@ -15,9 +15,12 @@ include 'partials/top.php';
     <input name="password" type="password" placeholder="e.g. password" required>
 
     <input type="submit" value="Login">
-
+    <input type="button" value="back" onclick="history.back()" style="color:white"/> 
 </form>
 
 <?php
+
+
+
 include 'partials/bottom.php';
 ?>

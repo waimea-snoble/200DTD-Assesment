@@ -37,8 +37,14 @@ echo '<h1>Sign Up: ' . $task['name'] . '</h1>';
 </form>
 
 
+
 <?php
+echo '</ul>';
 
-
+echo '<div id="back-button">
+        <a href="javascript:history.back()">
+            Back
+        </a>
+    </div>';
 include 'partials/bottom.php';
 ?>

@@ -2,11 +2,11 @@
 require 'lib/utils.php';
 include 'partials/top-admin.php';
 ?>
-<nav>
 
+
+<div id="admin">
 <a href="index.php" class="<?= $page=='index.php' ? 'active' : '' ?>">Logout</a>
-
-</nav>
+</div>
 
 
 <?php

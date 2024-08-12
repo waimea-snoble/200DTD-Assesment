@@ -16,13 +16,15 @@ body {
     flex-direction: column;
 }
 
+p {
+    color: #E83C3C;
+}
 
 /* HEADER ****************************************************/
 
 header {
     position: sticky;
     top: 0;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,6 +39,12 @@ header h1 {
     font-weight: normal;
     color: white;
 }
+h2 {
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: normal;
+    color: #4872FA;
+}
 
 
 /* NAV ****************************************************/
@@ -47,7 +55,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #E83C3C;
     text-decoration: none;
 }
 
@@ -56,9 +64,13 @@ nav a:hover {
 }
 
 nav a.active {
-    color: yellow;
+    color: white;
     text-decoration: underline;
 }
+
+
+
+
 
 
 /* MAIN ****************************************************/
@@ -70,6 +82,10 @@ main {
 
 
 /* LISTS ****************************************************/
+
+
+
+
 
 #category-list {
     list-style: none;
@@ -84,7 +100,7 @@ main {
     width: 100%;
     justify-content: space-between;
     gap: 1rem;
-    background-color: #69c;
+    background-color: #4872FA;
     border-radius: 0.3rem;
 }
 
@@ -96,7 +112,7 @@ main {
 }
 
 #category-list li:hover {
-    background-color: #f00;
+    background-color: #E83C3C;
 }
 
 #task-list {
@@ -112,7 +128,7 @@ main {
     width: 100%;
     justify-content: space-between;
     gap: 1rem;
-    background-color: #69c;
+    background-color: #4872FA;
     border-radius: 0.3rem;
 }
 
@@ -124,27 +140,60 @@ main {
 }
 
 #task-list li:hover {
-    background-color: #f00;
+    background-color: #E83C3C;
 }
 
-#company-info {
+#task-list li b {
+    display: block;
+    padding: 0.2rem 0.5rem;
+    color: #E83C3C;
+    text-decoration: none;
+}
+
+#people-list {
+    list-style: none;
+    padding: 0;
+    width: max-content;
+    margin: 1rem auto;
+}
+
+#people-list li{
+    margin-bottom: 0.3rem;
     display: flex;
-    justify-content: center;
-    gap: 3rem;
-
-    
+    width: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: #4872FA;
+    border-radius: 0.3rem;
+    color: white;
 }
 
-#games {
-    border: 3px solid black;
-    padding: 1rem;
-    background-color: grey;
+#admin-task-list {
+    list-style: none;
+    padding: 0;
+    width: max-content;
+    margin: 1rem auto;
 }
 
-#employees {
-    border: 3px solid black;
-    padding: 1rem;
-    background-color: grey;
+#admin-task-list li{
+    margin-bottom: 0.3rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: #4872FA;
+    border-radius: 0.3rem;
+}
+
+#admin-task-list li a {
+    display: block;
+    padding: 0.2rem 0.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+#admin-task-list li:hover {
+    background-color: #E83C3C;
 }
 
 /* TABLES ****************************************************/
@@ -173,31 +222,59 @@ table {
 /* FORMS**************************************************** */
 
 form {
-    width: max-content;
+    width: 15rem;
     margin: 1rem auto;
     padding: 1rem;
-    border: 1px solid #369
+    border: 1px solid #369;
+    background-color: #4872FA;
 }
 
 label {
     display: block;
-    color: #9cf
+    color: white
 }
 
 input, select {
     display: block;
     font-size: inherit;
+    background-color: white;
+    color: lightslategrey;
 }
 
-input:not(:last-child) {
-    margin-bottom: 1rem;
+input {
+    color: black;
 }
+
+
+
+
 /* ADD BUTTON ************************************************/
+
+#admin {
+    position: fixed;
+    left: 0.5rem;
+    bottom: 4rem;
+}
+
+#admin a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.5rem;
+    width: 5rem;
+    background-color: white;
+    color: black;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 19px
+    
+
+}
 
 #add-button {
     position: fixed;
-    right: 2rem;
-    bottom: 2rem;
+    right: 0.5rem;
+    bottom: 6rem;
 }
 
 #add-button a {
@@ -206,16 +283,40 @@ input:not(:last-child) {
     align-items: center;
     height: 3rem;
     width: 3rem;
-    background-color: #369;
+    background-color: #E83C3C;
+    color: black;
+    text-decoration: none;
     border-radius: 3rem;
     
 
 }
 
+#back-button {
+    position: fixed;
+    right: 0.5rem;
+    bottom: 4rem;
+}
+
+#back-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.5rem;
+    width: 5rem;
+    background-color: white;
+    color: black;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 19px
+    
+
+}
 
 /* FOOTER ****************************************************/
 
 footer {
+    position: sticky;
+    bottom: 0;
     padding: 1rem;
     text-align: center;
     border-top: 1px solid slategrey;

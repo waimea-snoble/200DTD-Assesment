@@ -42,6 +42,7 @@ catch (PDOException $e) {
         consoleLog($e->getmessage(), 'DB Booking Add', ERROR);
         die(' There was an error adding booking data to the database');
     }
+    echo '<p>Thank you for signing up.</p>';
 
     $query = 'UPDATE tasks SET amount = amount-1 WHERE id= ?';
     
@@ -65,7 +66,7 @@ else {
 
 
 
-echo '<p>Thank you for signing up.</p>';
+
 // header('location: index.php');
 
 include 'partials/bottom.php'; ?>

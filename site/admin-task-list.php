@@ -31,12 +31,13 @@ foreach($tasks as $task) {
     echo '<li>';
 
     echo   '<a href="people-list.php?id=' . $task['id'] . '">';
-    echo     $task['name'];
-    echo   '</a>';
+    echo     $task['name'] . ":" . " ";
     echo ($task['date']);
+    echo   '</a>';
+
 
     echo '<a href="delete-task.php?id=' . $task['id'] . '"
-    onclick="return confirm(`Are you sure?`);">Delete</a>';
+    onclick="return confirm(`Are you sure?`);">🗑</a>';
 
     echo '</li>';
 }
@@ -47,6 +48,12 @@ echo '<div id="add-button">
         <a href="add-task-form.php">
             Add
         </a>
+    </div>';
+
+    echo '<div id="back-button">
+    <a href="javascript:history.back()">
+        Back
+    </a>
     </div>';
 
 include 'partials/bottom.php'; ?>

@@ -3,13 +3,13 @@ require 'lib/utils.php';
 include 'partials/top.php';
 ?>
 
-<nav>
 
+
+<div id="admin">
     <a href="login-form.php" class="<?= $page=='login-form.php' ? 'active' : '' ?>">Admin Login</a>
+</div>
 
-</nav>
 
-        
     <?php
 echo '<h2>Categories</h2>';
 
