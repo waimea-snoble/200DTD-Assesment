@@ -44,6 +44,7 @@ foreach($tasks as $task) {
 
 echo '</ul>';
 
+// Add button
 echo '<div id="add-button">
         <a href="add-task-form.php">
             Add

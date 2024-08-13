@@ -23,12 +23,14 @@ catch (PDOException $e) {
 function openNew() {
     const catSelect = document.getElementById('category');
     const newCat = document.getElementById('new-category');
-
+    const newCatInput = document.getElementById('new-category-input');
     if (catSelect.value=='New...') {
         newCat.style.display = 'block';
+        newCatInput.required = true;
     }
     else {
         newCat.style.display = 'none';
+        newCatInput.required = false;
     }
 }
 </script>
@@ -48,7 +50,7 @@ function openNew() {
     <input name="amount" type="int" required>
 
     <label>Category</label>
-    <select name="category" required id="category" onChange="openNew();" style="color:black">
+    <select name="category" required id="category" onClick="openNew();" style="color:black">
 
 <?php
     foreach($tasks as $task) {
@@ -66,7 +68,7 @@ function openNew() {
 
     <div id="new-category" style="display: none;">
         <label>New Category</label>
-        <input name="new-category" type="text" placeholder="e.g. food" style="color:black">
+        <input id="new-category-input" name="new-category" type="text" placeholder="e.g. food" style="color:black">
 
     </div>
 
