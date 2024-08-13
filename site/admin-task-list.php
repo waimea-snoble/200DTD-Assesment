@@ -37,7 +37,7 @@ foreach($tasks as $task) {
 
 
     echo '<a href="delete-task.php?id=' . $task['id'] . '"
-    onclick="return confirm(`Are you sure?`);">🗑</a>';
+    onclick="return confirm(`Are you sure you want to delete this task?`);">🗑</a>';
 
     echo '</li>';
 }
