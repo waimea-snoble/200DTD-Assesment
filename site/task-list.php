@@ -27,53 +27,33 @@ catch (PDOException $e) {
 // See what we got back
 consoleLog($tasks);
 
-echo '<ul id="task-list" >';
+    $displayedTasks = 0;
 
-
-    foreach($tasks as $task) {
-
-        if ($task['amount'] > 0) {
-        echo '<li>';
-    
-        echo   '<a href="email-form.php?task=' . $task['id'] . '">';
-        echo     $task['name'] . ":" . " ";
-        echo     ($task['date']);
-        echo   '</a>';
-        echo '<b>';
-        echo 'x' . " " . ($task['amount']);
-        echo '</b>';
-        echo '</li>';
+    if (empty($tasks)) {
+        echo '<p>No tasks available in this category.</p>';
+    } else {
+        echo '<ul id="task-list">';
+        
+        foreach ($tasks as $task) {
+            if ($task['amount'] > 0) {
+                echo '<li>';
+                echo   '<a href="email-form.php?task=' . $task['id'] . '">';
+                echo     $task['name'] . ": " . $task['date'];
+                echo   '</a>';
+                echo '<b>';
+                echo 'x ' . $task['amount'];
+                echo '</b>';
+                echo '</li>';
+                $displayedTasks++;
+            }
         }
-
+        
+        echo '</ul>';
+        
+        if ($displayedTasks === 0) {
+            echo '<p>There are no tasks in this category</p>';
+        }
     }
-
-    // $displayedTasks = 0;
-
-    // if (empty($tasks)) {
-    //     echo '<p>No tasks available in this category.</p>';
-    // } else {
-    //     echo '<ul id="task-list">';
-        
-    //     foreach ($tasks as $task) {
-    //         if ($task['amount'] > 0) {
-    //             echo '<li>';
-    //             echo   '<a href="email-form.php?task=' . $task['id'] . '">';
-    //             echo     $task['name'] . ": " . $task['date'];
-    //             echo   '</a>';
-    //             echo '<b>';
-    //             echo 'x ' . $task['amount'];
-    //             echo '</b>';
-    //             echo '</li>';
-    //             $displayedTasks++;
-    //         }
-    //     }
-        
-    //     echo '</ul>';
-        
-    //     if ($displayedTasks === 0) {
-    //         echo '<p>There are tasks in this category, but none are currently available to display.</p>';
-    //     }
-    // }
 
 
 echo '</ul>';

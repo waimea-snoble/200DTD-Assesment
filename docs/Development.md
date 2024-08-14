@@ -178,11 +178,9 @@ I listened to my client and added a limit to how many tasks can be booked
 
 ![add task with amount](images/add-taskv3.png)
 
-<<<<<<< HEAD
 I also needed to add an amount column to the database
 
 HTML CHECKER
-=======
 This means I also had to change the add task form so the admin can set an amont available for each task
 
 ![not showing if amount = 0](images/amount=0-database.png)
@@ -212,4 +210,3 @@ They were very pleased and said
 ![css new task](images/css-new-task-1.png)
 
 ![css new task](images/css-new-task-2.png)
->>>>>>> 78607f83cec8e2ba1ce3c66cc2afc9ff555a35b5
