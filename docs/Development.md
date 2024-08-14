@@ -107,52 +107,109 @@ My client also said
 I responded to my clients feedback by putting a thin strip of red under the title. My client id happy with the final result.
 
 #
+
 I talked to my client before I started just to see if they had had any thought of any improvements that can be made to the website before I start the first draft and they said
 >I think it will be a good idea to add a home button so the user wont have to click back multiple times to get back to the home page.
 
 I finished the home page and task page and added a home button to lead back to the home page
 
-![task list](images/task-list.png)
+![category list](images/category-list.png)
+
+![Task list](images/task-list.png)
+
+
 
 #
-I finished the task booking form
-![task booking form](images/task-signup.png)
+
+I finished the task booking form so the user can select and sign up for a task.
+
+![user details form](images/user-details-form.png)
 
 
 #
-I added the option for the admin to login
+
+I added the option for the admin to login using a username and password.
+![admin login button](images/category-listv2.png)
 ![admin login](images/admin-login.png)
 
 
 #
 
-Today I finished the admin task list and the list of the people who have booked each task along with their contact information.
+Today I finished the admin category and task list, the logout button, and the list of the people who have booked each task along with their contact information.
+![Admin category list](images/admin-category-list.png)
+![Admin task list](images/admin-task-list.png)
+![User details](images/user-details.png)
 
 #
 
-Today I added the options for the aadmin to delete a task and add a task
-![delete task](images/delete-task.png)
+Today I added the options for the admin to delete a task from the database and add a task to the database.
+![alt text](images/delete-task.png)
 
 ![add task](images/add-task.png)
 
+After adding the add task form I realised that it would be annoying for the admin to type out the category every time.
+I solved this by having a dropdown menu with all of the existing tasks, and also having a new option which allows the admin to manually type a new category.
+
+
+![add task v2](images/add-taskv2.png)
+
+![category dropdown menu](images/category-selection.png)
+
+![category dropdown menu new](images/category-selection-new.png)
 
 #
 I realised that if a user is signing up for multiple tasks they wont want to fill out the form every time. I changed this by asking the user for only their email when they are signing up for a task. If they have previously signed up for a task they won't need to fill out the form, but if they have not signed for a task they will be asked to fill out their details in the form.
 
 ![ask for email](images/email-form.png)
 
-![user details form](images/user-details.png)
+![user details form](images/user-details-formv2.png)
 
 # 11/08/2024
 Ishowed this initial draft to my client and they said
 >It works very nicely but I have just realised that there is no limited amount of tasks available. This means 100 people can book the same task which is a problem if there is only 5 people needed.
 
-![Limited number of tasks added to website draft](images/amount-remaining.png)
+![database](images/database.png)
+
+For this to work I needed to add an amount column to the database.
+
+![limited number of tasks available](images/amount-remaining.png)
 
 I listened to my client and added a limit to how many tasks can be booked
 
-![database](images/database.png)
+![add task with amount](images/add-taskv3.png)
 
+<<<<<<< HEAD
 I also needed to add an amount column to the database
 
 HTML CHECKER
+=======
+This means I also had to change the add task form so the admin can set an amont available for each task
+
+![not showing if amount = 0](images/amount=0-database.png)
+
+I also made sure that a task will not be displayed if the amount remaining is 0. This is so a user cannot signup for a task that is not needed anymore.
+
+I showed my client how I had add a limited amount of tasks and how it didn't display if there was none remaing.
+They were very pleased and said
+>This looks really good and functions nicely, now all thats needed is the colouring.
+
+#
+
+![css home page](images/css-home-page.png)
+
+![css task list](images/css-task-list.png)
+
+![css email form](images/css-email-form.png)
+
+![css user details form](images/css-user-details-form.png)
+
+![css admin login form](images/css-admin-login-form.png)
+
+![css admin home page](images/css-admin-home-page.png)
+
+![css admin task list](images/css-admin-task-list.png)
+
+![css new task](images/css-new-task-1.png)
+
+![css new task](images/css-new-task-2.png)
+>>>>>>> 78607f83cec8e2ba1ce3c66cc2afc9ff555a35b5

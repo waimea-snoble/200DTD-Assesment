@@ -8,8 +8,8 @@ include 'partials/top.php';
 
 <form method="post" action="admin-login.php">
 
-    <label>Name</label>
-    <input name="username" type="text" placeholder="e.g. Happygames" required>
+    <label>Username</label>
+    <input name="username" type="text" placeholder="e.g. Username" required>
 
     <label>Password</label>
     <input name="password" type="password" placeholder="e.g. password" required>

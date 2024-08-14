@@ -32,6 +32,7 @@ echo '<h2>Sign Up: ' . $task['name'] . '</h2>';
     <input name="email" type="email" placeholder="e.g. 123@gmail.com" required>
 
     <input type="submit" value="Submit">
+    <input type="button" value="back" onclick="history.back()" style="color:white"/> 
 
     
 </form>
@@ -41,10 +42,5 @@ echo '<h2>Sign Up: ' . $task['name'] . '</h2>';
 <?php
 echo '</ul>';
 
-echo '<div id="back-button">
-        <a href="javascript:history.back()">
-            Back
-        </a>
-    </div>';
 include 'partials/bottom.php';
 ?>

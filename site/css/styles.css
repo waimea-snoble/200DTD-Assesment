@@ -127,6 +127,7 @@ main {
     margin-bottom: 0.3rem;
     display: flex;
     width: 100%;
+    max-width: 16rem;
     justify-content: space-between;
     gap: 1rem;
     background-color: #4872FA;
