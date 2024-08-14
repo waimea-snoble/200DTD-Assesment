@@ -40,12 +40,11 @@ echo '<p>Your details are not in our database, so please enter them below...';
     <input name="email" type="email" placeholder="e.g. 123@gmail.com" required>
 
     <input type="submit" value="Submit">
-    <input type="button" value="back" onclick="history.back()" style="color:white"/> 
+    <input type="button" value="back" onclick="history.back()" style="color:white"> 
     
 </form>
 
 <?php
-echo '</ul>';
 
 
 include 'partials/bottom.php';

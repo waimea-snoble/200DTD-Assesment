@@ -24,11 +24,11 @@ $page = basename($_SERVER['SCRIPT_NAME']);
         rel="stylesheet"
 
         href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.fluid.classless.blue.min.css"
-    />
+    >
     <link
     rel="stylesheet"
     href="css/styles.css"
-    />
+    >
 
 </head>
 

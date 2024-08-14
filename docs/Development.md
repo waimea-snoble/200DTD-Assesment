@@ -210,3 +210,41 @@ They were very pleased and said
 ![css new task](images/css-new-task-1.png)
 
 ![css new task](images/css-new-task-2.png)
+
+
+
+![index code validation before](images/code-valadation-index.png)
+
+![index code validation after](images/code-validation-after.png)
+
+![task list code validation before](images/code-validation-task-list.png)
+
+![task list code validation after](images/code-validation-after.png)
+
+![email form code validation before](images/code-validation-email-form.png)
+
+![email form code validation after](images/code-validation-after.png)
+
+![user details form code validation before](images/code-validation-user-details-form.png)
+
+![user details form code validation after](images/code-validation-after.png)
+
+![admin login form code validation before](images/code-validation-admin-login-form.png)
+
+![admin login form code validation after](images/code-validation-after.png)
+
+![index admin code validation before](images/code-validation-index-admin.png)
+
+![index admin code validation after](images/code-validation-after.png)
+
+![admin task list code validation after](images/code-validation-after.png)
+I did not have any errors on this page
+
+![admin people list code validation after](images/code-validation-after.png)
+I did not have any errors on this page
+
+![add task form code validation before](images/code-validation-add-task-form.png)
+
+add task form needed
+
+need dates

@@ -47,7 +47,7 @@ function openNew() {
     <input name="date" type="date" required>
 
     <label>Amount</label>
-    <input name="amount" type="int" required>
+    <input name="amount" type="number" required>
 
     <label>Category</label>
     <select name="category" required id="category" onClick="openNew();" style="color:black">
@@ -73,7 +73,7 @@ function openNew() {
     </div>
 
     <input type="submit" value="Add" >
-    <input type="button" value="back" onclick="history.back()"/> 
+    <input type="button" value="back" onclick="history.back()"> 
 
  
 </form>

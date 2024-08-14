@@ -48,7 +48,6 @@ consoleLog($tasks);
             }
         }
         
-        echo '</ul>';
         
         if ($displayedTasks === 0) {
             echo '<p>There are no tasks in this category</p>';

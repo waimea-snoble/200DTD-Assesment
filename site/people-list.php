@@ -36,26 +36,6 @@ catch (PDOException $e) {
 // See what we got back
 consoleLog($tasks);
 
-// echo '<ul id="name-list">';
-
-// echo '<table>
-//         <tr>
-//             <th>Name</th>
-//             <th>Email</th>
-//             <th>Phone</th>
-//         </tr>';
-
-// foreach($tasks as $task) {
-//     echo '<tr>';
-//     echo '<td>' . $task['pname'] . '</td>';
-//     echo '<td>' . $task['pemail'] . '</td>';
-//     echo '<td>' . $task['pphone'] . '</td>';
-
-//     echo '</tr>';
-// }
-
-// echo '</table>';
-
 
 
 echo '<ul id="people-list">';
