@@ -28,11 +28,16 @@ consoleLog($tasks);
 echo '<ul id="admin-task-list">';
 
 foreach($tasks as $task) {
+    // Create a date object from DB date
+    $date = new DateTimeImmutable($task['date']);
+    // And format it
+    $dateText = $date->format('D, j M Y');
+    
     echo '<li>';
 
     echo   '<a href="people-list.php?id=' . $task['id'] . '">';
     echo     $task['name'] . ":" . " ";
-    echo ($task['date']);
+    echo ($dateText);
     echo   '</a>';
 
 

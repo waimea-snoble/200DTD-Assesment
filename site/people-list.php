@@ -45,11 +45,11 @@ foreach($tasks as $task) {
 
     echo '<li>';
 
-    echo 'Name:' . " " . $task['pname'];
+    echo '<span class="label">Name:</span> ' . $task['pname'];
     echo     '<br>';
-    echo 'Email:' . " " . $task['pemail'];
+    echo '<span class="label">Email:</span> ' . $task['pemail'];
     echo     '<br>';
-    echo 'Phone:' . " " . $task['pphone'];
+    echo '<span class="label">Phone:</span> ' . $task['pphone'];
     echo '</li>';
 }
 

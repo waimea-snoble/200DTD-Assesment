@@ -14,7 +14,7 @@ $userID = $_GET['user'] ?? null;
 $db = connectToDB();
 
 
-
+// Set up query to get 
 $query = 'SELECT * FROM bookings WHERE task= ? AND person= ?';
 
 // run and do fetch()

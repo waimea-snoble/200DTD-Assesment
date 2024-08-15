@@ -12,7 +12,6 @@
     href="css/styles.css"
     >
 
-    
     </main>
     <footer>
         &copy; <?= date('Y') ?> Scott Noble

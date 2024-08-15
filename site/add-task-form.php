@@ -50,7 +50,7 @@ function openNew() {
     <input name="amount" type="number" required>
 
     <label>Category</label>
-    <select name="category" required id="category" onClick="openNew();" style="color:black">
+    <select name="category" id="category" onClick="openNew();" style="color:black">
 
 <?php
     foreach($tasks as $task) {

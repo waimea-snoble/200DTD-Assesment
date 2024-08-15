@@ -35,10 +35,15 @@ consoleLog($tasks);
         echo '<ul id="task-list">';
         
         foreach ($tasks as $task) {
+            // Create a date object from DB date
+            $date = new DateTimeImmutable($task['date']);
+            // And format it
+            $dateText = $date->format('d M Y');
+
             if ($task['amount'] > 0) {
                 echo '<li>';
                 echo   '<a href="email-form.php?task=' . $task['id'] . '">';
-                echo     $task['name'] . ": " . $task['date'];
+                echo     $task['name'] . ": " . $dateText;
                 echo   '</a>';
                 echo '<b>';
                 echo 'x ' . $task['amount'];

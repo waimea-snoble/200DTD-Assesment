@@ -29,7 +29,7 @@ The website will also allow the coaches to modify, add, or delete tasks.
 
 Clients should be able to sign up for a task and see what tasks they have signed up for.
 
-The couches should be able to add delete, and modify tasks.
+The coaches should be able to add delete, and modify tasks.
 
 
 -------------------------------------------------
