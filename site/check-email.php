@@ -8,9 +8,9 @@ $email = $_POST['email'] ?? null;
 
 
 $db = connectToDB();
-
+//Setup a query to select people data 
 $query = 'SELECT id FROM people WHERE email = ?';
-
+//Attempt to run the query
 try {
     $stmt = $db->prepare($query);
     $stmt->execute([$email]);

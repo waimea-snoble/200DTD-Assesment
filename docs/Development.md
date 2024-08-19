@@ -247,6 +247,6 @@ I did not have any errors on this page
 
 ![add task form code validation after](images/code-validation-after.png)
 
-add task form needed
-
 need dates
+
+code commenting people list needed

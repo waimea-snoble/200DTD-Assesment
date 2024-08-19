@@ -4,6 +4,7 @@ require 'lib/utils.php';
 include 'partials/top.php';
 ?>
 
+<!-- admin login form -->
 <h2>Admin Login</h2>
 
 <form method="post" action="admin-login.php">

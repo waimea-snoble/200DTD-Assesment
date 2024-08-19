@@ -1,6 +1,6 @@
 
 
-
+<!-- header -->
 <?php require_once '_config.php'; ?>
 
 <?php

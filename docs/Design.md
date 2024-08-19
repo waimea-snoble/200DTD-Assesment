@@ -97,7 +97,7 @@ Place a image here that shows the *final design* of your database: tables, field
 
 ### User Interface Design
 
-Place images here that show your *final design* of your UI: layout, colours, etc.
+![Final figma UI design](images/final-figma-UI-design.png)
 
 
 -------------------------------------------------

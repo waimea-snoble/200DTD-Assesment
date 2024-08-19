@@ -8,9 +8,11 @@ $taskId = $_GET['task'] ?? null;
 if (!$taskId) die("Missing task ID!");
 
 $db = connectToDB();
-
+// Setup a query to get task data
 $query = 'SELECT name FROM tasks WHERE id = ?';
 
+
+// Attempt to run the query
 try {
     $stmt = $db->prepare($query);
     $stmt->execute([$taskId]);
@@ -21,6 +23,7 @@ catch (PDOException $e) {
     die('There was an error getting task data from the database');
 }
 
+// user email form
 echo '<h2>Sign Up: ' . $task['name'] . '</h2>';
 ?>
 

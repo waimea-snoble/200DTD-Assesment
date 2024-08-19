@@ -14,10 +14,10 @@ $userID = $_GET['user'] ?? null;
 $db = connectToDB();
 
 
-// Set up query to get 
+// Set up query to get booking data
 $query = 'SELECT * FROM bookings WHERE task= ? AND person= ?';
 
-// run and do fetch()
+// Attempt to run the query
 
 try {
     $stmt = $db->prepare($query);
@@ -31,6 +31,7 @@ catch (PDOException $e) {
 
 
     if ($booking == false) {
+        // Set up query to insert booking data
     $query = 'INSERT INTO bookings (task, person) VALUES (?, ?)';
     //Attempt to run the query
 
@@ -43,7 +44,7 @@ catch (PDOException $e) {
         die(' There was an error adding booking data to the database');
     }
     echo '<p>Thank you for signing up.</p>';
-
+// Set up query to update task data 
     $query = 'UPDATE tasks SET amount = amount-1 WHERE id= ?';
     
 // Attempt to run the query

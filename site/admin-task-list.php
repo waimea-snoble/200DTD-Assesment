@@ -10,8 +10,9 @@ $cat = $_GET['cat'] ?? null;
 $db = connectToDB();
 consoleLog($db);
 
+//Setup a query to select task data
 $query = 'SELECT * FROM tasks WHERE category = ?';
-
+//Attempt to run the query
 try {
     $stmt = $db->prepare($query);
     $stmt->execute([$cat]);
@@ -27,6 +28,7 @@ consoleLog($tasks);
 
 echo '<ul id="admin-task-list">';
 
+// admin task list
 foreach($tasks as $task) {
     // Create a date object from DB date
     $date = new DateTimeImmutable($task['date']);

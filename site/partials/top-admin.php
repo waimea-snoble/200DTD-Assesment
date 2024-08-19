@@ -1,8 +1,7 @@
 
-
+<!-- header for admin -->
 
 <?php require_once '_config.php'; ?>
-
 <?php
 
 $page = basename($_SERVER['SCRIPT_NAME']);

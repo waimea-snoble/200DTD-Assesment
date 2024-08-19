@@ -19,7 +19,7 @@ echo '<p>Password: ' . $password;
 //Connect to database
 $db = connectToDB();
 
-//Setup a query to insert all company info
+//Setup a query to select admin data
 $query = 'SELECT * FROM `admin` ';
 
 //Attempt to run the query

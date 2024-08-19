@@ -2,12 +2,13 @@
 require 'lib/utils.php';
 include 'partials/top-admin.php';
 
+//Connect to the database
 $db = connectToDB();
  
 consolelog($db);
-
+        // Set up query to get task data
 $query = 'SELECT DISTINCT category FROM tasks ORDER BY category ASC';
-
+// Attempt to run the query
 try {
     $stmt = $db->prepare($query);
     $stmt->execute();
@@ -37,11 +38,12 @@ function openNew() {
 
 <h2>New Task</h2>
 
+<!-- form for adding a task -->
 <form method="post" action="add-task.php">
 
 
     <label>Name</label>
-    <input name="name" type="text" placeholder="e.g. 1 large bag of nachos" required>
+    <input name="name" type="text" placeholder="e.g. large bag of nachos" required>
 
     <label>Date</label>
     <input name="date" type="date" required>
@@ -73,6 +75,7 @@ function openNew() {
     </div>
 
     <input type="submit" value="Add" >
+    <!-- back button -->
     <input type="button" value="back" onclick="history.back()"> 
 
  

@@ -14,9 +14,10 @@ echo '<h2>Categories</h2>';
 
 $db = connectToDB();
 consoleLog($db);
-
+// Setup a query to get task data
 $query = 'SELECT DISTINCT category FROM tasks';
 
+// Attempt to run the query
 try {
     $stmt = $db->prepare($query);
     $stmt->execute();
@@ -30,6 +31,7 @@ catch (PDOException $e) {
 // See what we got back
 consoleLog($tasks);
 
+// task category list
 echo '<ul id="category-list">';
 
 foreach($tasks as $task) {
@@ -43,6 +45,7 @@ foreach($tasks as $task) {
 
 echo '</ul>';
 
+// add button
 echo '<div id="add-button">
         <a href="add-task-form.php">
             Add
