@@ -93,7 +93,7 @@ Replace this text with an explanation of what you will need to consider moving f
 
 ### Database Structure
 
-Place a image here that shows the *final design* of your database: tables, fields and relationships.
+![Database design v3](images/database-designv3.png)
 
 ### User Interface Design
 
@@ -106,7 +106,7 @@ Place a image here that shows the *final design* of your database: tables, field
 
 ### Database Structure
 
-Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
+![final database structure](images/final-database-structure.png)
 
 ### User Interface Design
 
