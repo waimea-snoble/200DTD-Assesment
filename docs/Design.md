@@ -19,7 +19,7 @@ Gymnastics Nelson needs a list of tasks that parents and gymnasts can select and
 
 The clients of the business will be parents or gymnasts who want to help out in Gymnastics Nelson.
 
-The clients want a way to see the list of tasks and when it needs to be done. They could do this via computor or mobile phone, but they might not be experienced using technology, so they system needs to be easy to use and requires no experience.
+The clients want a way to see the list of tasks and when it needs to be done. They could do this via computor or mobile phone, but they might not be experienced using technology, so they system needs to be easy to use and requires little experience with technology.
 
 ### Proposed Solution
 
@@ -107,6 +107,7 @@ Replace this text with an explanation of what you will need to consider moving f
 ### Database Structure
 
 ![final database structure](images/final-database-structure.png)
+My final database structure is very similar to my design, however I have added an amount column into tasks table.
 
 ### User Interface Design
 

@@ -192,6 +192,7 @@ They were very pleased and said
 >This looks really good and functions nicely, now all thats needed is the colouring.
 
 #
+Today I added the css for all of the pages in my website
 
 ![css home page](images/css-home-page.png)
 
@@ -211,7 +212,9 @@ They were very pleased and said
 
 ![css new task](images/css-new-task-2.png)
 
+#
 
+Today I validated all of my code
 
 ![index code validation before](images/code-valadation-index.png)
 
@@ -238,9 +241,11 @@ They were very pleased and said
 ![index admin code validation after](images/code-validation-after.png)
 
 ![admin task list code validation after](images/code-validation-after.png)
+
 I did not have any errors on this page
 
 ![admin people list code validation after](images/code-validation-after.png)
+
 I did not have any errors on this page
 
 ![add task form code validation before](images/code-validation-add-task-form.png)
