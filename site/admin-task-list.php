@@ -41,6 +41,10 @@ foreach($tasks as $task) {
     echo     $task['name'] . ":" . " ";
     echo ($dateText);
     echo   '</a>';
+    echo '<b>';
+    echo ' x ' . $task['amount'];
+    echo '</b>';
+
 
 
     echo '<a href="delete-task.php?id=' . $task['id'] . '"
