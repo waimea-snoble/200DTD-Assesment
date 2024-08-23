@@ -31,7 +31,7 @@ echo '<p>Your details are not in our database, so please enter them below...';
     <input name="taskID" type="hidden" value="<?= $taskId ?>">
 
     <label>Full Name</label>
-    <input name="name" type="text" placeholder="e.g. Dave" required>
+    <input name="name" type="text" placeholder="e.g. Dave Smith" required>
 
     <label>Phone</label>
     <input name="phone" type="text" placeholder="e.g. 123456789" required>

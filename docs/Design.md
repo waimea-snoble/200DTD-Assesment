@@ -111,7 +111,11 @@ My final database structure is very similar to my design, however I have added a
 
 ### User Interface Design
 
-Place screenshots and notes here that show your *actual system UI* in action.
+![Home page UI](images/UI-index.png)
+
+![Form UI](images/UI-form.png)
+
+![People list UI](images/UI-people-list.png)
 
 
 -------------------------------------------------
