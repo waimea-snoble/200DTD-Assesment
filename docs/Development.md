@@ -252,6 +252,17 @@ I did not have any errors on this page
 
 ![add task form code validation after](images/code-validation-after.png)
 
+
+# 24/08/24
+
+https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/snoble_waimea_school_nz/Eeq7PEgCbKRHrhkx6UIQlysBQhx56xow2gMhS6EPEPxRlA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=SRi07W
+
+The video link above shows a user signing up for a task, signing up for a task with their email already in the database, and signing up for a task they have already signed up for. It also shows that every time a user signs up for a task the amount required decreases by one until it disappears. It shows the admin logging in, deleting a task, adding a task, and veiwing the list of people who have booked the task.
+
+https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/snoble_waimea_school_nz/Edp9WXE6F1ZFslIFoj6lF_YBP8Ba4XX520SlRvAgHAWPJg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=aHtETp
+
+I realised I forgot to show the admin login details in the database, and what happens if they input the wrong details so I included that in the video above.
+
 need dates
 
 code commenting people list needed
