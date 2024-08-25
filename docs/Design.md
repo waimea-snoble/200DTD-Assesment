@@ -25,11 +25,9 @@ The clients want a way to see the list of tasks and when it needs to be done. Th
 
 The proposed solution is having a website for Gymnastics Nelson that allows gymnastics coaches, parents, and gymnasts to view a list of tasks and sign up for them.
 
-The website will also allow the coaches to modify, add, or delete tasks.
+The website will also allow the coaches to add, or delete tasks.
 
-Clients should be able to sign up for a task and see what tasks they have signed up for.
-
-The coaches should be able to add delete, and modify tasks.
+Clients should be able to sign up for a task, and the admin can see who has signed up for each task.
 
 
 -------------------------------------------------
@@ -76,15 +74,8 @@ The social implications of a digital outcome involve how it affects users, the w
 
 Social is relevant to my website because I don't want to cause offence to anyone or stigmatise or stereotype particular social groups.
 
-When designing my website I will avoid using racist or sexist language or images, as well as using gender neutral language where possible. I will also avoid promoting activities that have a negative impact on people / society (e.g. gambling, drinking, drugs, etc.)
+When designing my website I will avoid using racist or sexist language or images, as well as using gender neutral language where possible. I will also avoid promoting activities that have a negative impact on people / society (e.g. gambling, drinking, drugs, etc.). I will also make it suitable for all ages.
 
-### IMPLICATION NAME HERE
-
-Replace this text with a clear explanation of what the implication means.
-
-Replace this text with an explanation of why the implication is relevant to this particular project.
-
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
 
 
 -------------------------------------------------
@@ -110,7 +101,7 @@ Replace this text with an explanation of what you will need to consider moving f
 My final database structure is very similar to my design, however I have added an amount column into tasks table.
 
 ### User Interface Design
-
+The category and task list items are closer together than the design, this is because if there is a lot of tasks the user will have to scroll longer since they are seperated.
 ![Home page UI](images/UI-index.png)
 
 ![Form UI](images/UI-form.png)
@@ -124,20 +115,101 @@ My final database structure is very similar to my design, however I have added a
 
 ### Meeting the Needs of the Users
 
-Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
+
+I have met the needs of the users by ensuring they can sign up for a task on a phone or computer, and making sure the webiste doesn't need a lot of experience using techology by having a title at the top of each screen showing what is being displayed.
+
+
+
 
 ### Meeting the System Requirements
 
-Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
+I met the system requirements by having a list of tasks so the user can sign up for a task, as well as the task amount decreasing by 1 after every sign up, I have included an add and delete button so the admin can add and delete a task, as well as the admin being able to click on a task to see who has signed up for each task.
 
-### Review of IMPLICATION NAME HERE
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of IMPLICATION NAME HERE
+### Review of usability
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+I addressed the usability implication by using Neilsen's heuristics as stated below.
 
-### Review of IMPLICATION NAME HERE
+I showed visibility of system status by displaying a "thank you for signing up" message after the user signs up for a task
+![Visibility of system status](images/visibility-system-status.png)
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+I showed match between system and the real world by using a rubbish bin to delete a task.
+![Match between system and the real world](images/match-system-real-world.png)
+
+I showed user control and freedom by asking the user if they are sure they want to delete a task, and having an option to cancel.
+![User control and freedom](images/user-control-freedom.png)
+
+I showed consistency and standards by having the back button always in the same location. However in the form I chose not to have it in the same location but instead beneath the submit button. The reason for this was because I felt it was more user friendly to have the submit and back button the same section of the form.
+
+![Consistancy and standards](images/consistancy-standards.png)
+
+![Consistancy and standards form](images/consistancy-standards-form.png)
+
+
+I showed error prevention by making all of the inputs in the form required, and ensuring that the the email the user has entered is valid. This stops the user from making an error when signing up for a task.
+
+![Error prevention required](images/error-prevention-required.png)
+
+![Error prevention email](images/error-prevention-email.png)
+
+I showed recognition rather than recall by having a drop down menu when the admin is selecting a category for the task. This means that the admin does not need to remember the name of every category.
+
+![Recognition rather than recall](images/recognition-recall.png)
+
+
+I showed flexibility and efficiency of use by having clear step-by-step actions for the user to sign up for tasks. I did this by having a list of categories that the user will select from which will take them to a list of tasks that they can sign up for.
+
+![Flexibility and efficiency of use home page](images/flexibility-efficiency-home.png)
+
+![Flexibility and efficiency of use tasks](images/flexibility-efficiency-task.png)
+
+
+I demonstrated aesthetic and minimalist design by keeping my design as simple as possible so that the user would not overwhelmed by too much information. I did this by only showing necessary information on each page. I concentrated on keeping the design looking aesthetically pleasing so that the user did not get overwhelmed by the colours and/ or design of the website.
+
+![Aesthetic and minimalist design](images/aesthetic-minimalist-design.png)
+
+I showed the heuristic help users recognize, diagnose, and recover from errors by having a message that shows up if they have already signed up for a task. I made this message red so that the user will easily see it and know why the message was displayed. 
+
+![Helps users recognize, diagnose, and recover from errors](images/help-recover-errors.png)
+
+
+I did not feel that the heuristic help and documentation was needed as the website is simple to use and the users shouldn't need any help when using the webite.
+
+
+
+
+
+
+### Review of functionality
+
+I adressed the funcionality implication by making sure the website does everything it is supposed to for example, the user signing up for a task, the task amount decreasing by 1 after every sign up, the admin being able to add and delete a task, as well as the admin being able to see who has signed up for each task. I have ensured that there are no bugs in the website and does not crash.
+
+
+
+### Review of aesthetic
+
+
+
+I used the implication aesthetic by using fonts and colours that work well together and pleased the user. The font I used was sans serif which uses very simple letter formation which makes it easier to read. The colours I used were red, white, and varying shades of blue. These colours matched the Gymnastics Nelson logo. I chose to use white text on the darker blue background becausse it stands out is easy to read.
+
+![Aesthetic implication](images/aesthetic-implication.png)
+
+
+
+### Review of end-user
+
+I addressed the end-user implication by finding out who my end-users are and by using language that could be easily understood by the end-user. For this website for Gymnastics Nelson my end-users are the parents, grandparents or adult family members of gymnasts. I also made sure that this website could be accessible and worked well on all devices that my end-users will be using. Even thought the main device my end-ussers will be using are phones, I made it work well phones, laptops, and ipads/tablets.
+
+![End-user laptop](images/end-user-laptop.png)
+![End-user phone](images/end-user-phone.png)
+![End-user ipad](images/end-user-ipad.png)
+
+
+
+
+### Review of Social
+
+
+
+I addressed the social implication by not using any rasist or sexist language. The language that I choose to use was basic such as, admin login, add, back, submit. This also means that it is suitable for all ages. On my website there was opportunity to use gender nuetral language. I also did not promote anything that will have a negative impact on society such as gambling, drinking, and drugs. 

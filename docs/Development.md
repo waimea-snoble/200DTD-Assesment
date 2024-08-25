@@ -108,7 +108,7 @@ I responded to my clients feedback by putting a thin strip of red under the titl
 
 # 27/06/2024
 
-I talked to my client before I started just to see if they had had any thought of any improvements that can be made to the website before I start the first draft and they said
+I talked to my client before I started just to see if they had thought of any improvements that can be made to the website before I start the first draft and they said
 >I think it will be a good idea to add a home button so the user wont have to click back multiple times to get back to the home page.
 
 I finished the home page and task page and added a home button to lead back to the home page
@@ -119,33 +119,35 @@ I finished the home page and task page and added a home button to lead back to t
 
 
 
-#
+# 04/07/2024
 
 I finished the task booking form so the user can select and sign up for a task.
 
 ![user details form](images/user-details-form.png)
 
 
-#
+# 22/07/2024
 
 I added the option for the admin to login using a username and password.
 ![admin login button](images/category-listv2.png)
 ![admin login](images/admin-login.png)
 
 
-#
+# 25/07/2024
 
 Today I finished the admin category and task list, the logout button, and the list of the people who have booked each task along with their contact information.
 ![Admin category list](images/admin-category-list.png)
 ![Admin task list](images/admin-task-list.png)
 ![User details](images/user-details.png)
 
-#
+# 30/07/2024
 
 Today I added the options for the admin to delete a task from the database and add a task to the database.
 ![alt text](images/delete-task.png)
 
 ![add task](images/add-task.png)
+
+# 05/08/2024
 
 After adding the add task form I realised that it would be annoying for the admin to type out the category every time.
 I solved this by having a dropdown menu with all of the existing tasks, and also having a new option which allows the admin to manually type a new category.
@@ -180,8 +182,7 @@ I listened to my client and added a limit to how many tasks can be booked
 
 I also needed to add an amount column to the database
 
-HTML CHECKER
-This means I also had to change the add task form so the admin can set an amont available for each task
+This means I also had to change the add task form so the admin can set an amount available for each task
 
 ![not showing if amount = 0](images/amount=0-database.png)
 
@@ -191,8 +192,8 @@ I showed my client how I had add a limited amount of tasks and how it didn't dis
 They were very pleased and said
 >This looks really good and functions nicely, now all thats needed is the colouring.
 
-#
-Today I added the css for all of the pages in my website
+# 19/08/2024
+Today I finished the css for all of the pages in my website with the suggested colours by my client.
 
 ![css home page](images/css-home-page.png)
 
@@ -208,11 +209,12 @@ Today I added the css for all of the pages in my website
 
 ![css admin task list](images/css-admin-task-list.png)
 
+
 ![css new task](images/css-new-task-1.png)
 
 ![css new task](images/css-new-task-2.png)
 
-#
+# 22/08/2024
 
 Today I validated all of my code
 
@@ -240,13 +242,14 @@ Today I validated all of my code
 
 ![index admin code validation after](images/code-validation-after.png)
 
+I did not have any errors on this page
 ![admin task list code validation after](images/code-validation-after.png)
 
 I did not have any errors on this page
 
 ![admin people list code validation after](images/code-validation-after.png)
 
-I did not have any errors on this page
+
 
 ![add task form code validation before](images/code-validation-add-task-form.png)
 
@@ -263,6 +266,10 @@ https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/snoble_waimea_school_nz/
 
 I realised I forgot to show the admin login details in the database, and what happens if they input the wrong details so I included that in the video above.
 
-need dates
-
 code commenting people list needed
+
+# 25/08/2024
+
+I showed the final website to my client and they said
+>The Gynastics Nelson Club colours of red white and blue were represented well in the website with just the right amount of each colour used. The website is easy to use and easy for the adminstrator to set up various tasks when needed. The website was efficient at gathering the contact details of each volunteer and was clear when the tasks allocation had been used up. The website was straight forward for users to sign up for a task. I appreciated that the website adapted to differing screen sizes and devices.
+
