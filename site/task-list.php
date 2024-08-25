@@ -62,6 +62,7 @@ consoleLog($tasks);
 
 echo '</ul>';
 
+// back button
 echo '<div id="back-button">
         <a href="javascript:history.back()">
             Back
