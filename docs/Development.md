@@ -273,3 +273,5 @@ code commenting people list needed
 I showed the final website to my client and they said
 >The Gynastics Nelson Club colours of red white and blue were represented well in the website with just the right amount of each colour used. The website is easy to use and easy for the adminstrator to set up various tasks when needed. The website was efficient at gathering the contact details of each volunteer and was clear when the tasks allocation had been used up. The website was straight forward for users to sign up for a task. I appreciated that the website adapted to differing screen sizes and devices.
 
+Code Spell Checker
+Street Side Software

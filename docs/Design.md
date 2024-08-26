@@ -116,7 +116,7 @@ The category and task list items are closer together than the design, this is be
 ### Meeting the Needs of the Users
 
 
-I have met the needs of the users by ensuring they can sign up for a task on a phone or computer, and making sure the webiste doesn't need a lot of experience using techology by having a title at the top of each screen showing what is being displayed.
+I have met the needs of the users by ensuring they can sign up for a task on a phone or computer, and making sure the webiste doesn't need a lot of experience using technology by having a title at the top of each screen showing what is being displayed.
 
 
 
@@ -138,6 +138,7 @@ I showed match between system and the real world by using a rubbish bin to delet
 ![Match between system and the real world](images/match-system-real-world.png)
 
 I showed user control and freedom by asking the user if they are sure they want to delete a task, and having an option to cancel.
+
 ![User control and freedom](images/user-control-freedom.png)
 
 I showed consistency and standards by having the back button always in the same location. However in the form I chose not to have it in the same location but instead beneath the submit button. The reason for this was because I felt it was more user friendly to have the submit and back button the same section of the form.
@@ -183,7 +184,7 @@ I did not feel that the heuristic help and documentation was needed as the websi
 
 ### Review of functionality
 
-I adressed the funcionality implication by making sure the website does everything it is supposed to for example, the user signing up for a task, the task amount decreasing by 1 after every sign up, the admin being able to add and delete a task, as well as the admin being able to see who has signed up for each task. I have ensured that there are no bugs in the website and does not crash.
+I addupposed to for example, the user signing up for a task, the task amount decreasing by 1 after every sign up, the admin being able to add and delete a task, as well as the admin being able to see who has signed up for each task. I have ensured that there are no bugs in the website and does not crash.
 
 
 
@@ -212,4 +213,4 @@ I addressed the end-user implication by finding out who my end-users are and by 
 
 
 
-I addressed the social implication by not using any rasist or sexist language. The language that I choose to use was basic such as, admin login, add, back, submit. This also means that it is suitable for all ages. On my website there was opportunity to use gender nuetral language. I also did not promote anything that will have a negative impact on society such as gambling, drinking, and drugs. 
+I addressed the social implication by not using any racist or sexist language. The language that I choose to use was basic such as, admin login, add, back, submit. This also means that it is suitable for all ages. On my website there was opportunity to use gender neutral language. I also did not promote anything that will have a negative impact on society such as gambling, drinking, and drugs. 
