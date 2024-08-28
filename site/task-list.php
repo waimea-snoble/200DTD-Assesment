@@ -9,9 +9,10 @@ $cat = $_GET['cat'] ?? null;
 
 $db = connectToDB();
 consoleLog($db);
-
+// Setup a query to get tasks that belong to a specific category
 $query = 'SELECT * FROM tasks WHERE category = ?';
 
+// Attempt to run the query
 try {
     $stmt = $db->prepare($query);
     $stmt->execute([$cat]);
@@ -27,6 +28,7 @@ catch (PDOException $e) {
 // See what we got back
 consoleLog($tasks);
 
+// task list
     $displayedTasks = 0;
 
     if (empty($tasks)) {

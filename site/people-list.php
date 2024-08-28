@@ -14,7 +14,7 @@ if($taskID == null) die('Invalid task ID');
 //Connect to the database
 $db = connectToDB();
 
-
+// Setup a query to get people details
 $query = 'SELECT people.name     AS pname,
                  people.email    AS pemail,
                  people.phone    AS pphone
@@ -23,6 +23,7 @@ $query = 'SELECT people.name     AS pname,
             JOIN people ON bookings.person = people.id
             WHERE bookings.task = ?';
 
+// Attempt to run the query
 try {
     $stmt = $db->prepare($query);
     $stmt->execute([$taskID]);
@@ -37,7 +38,7 @@ catch (PDOException $e) {
 consoleLog($tasks);
 
 
-
+// people list
 echo '<ul id="people-list">';
 
 foreach($tasks as $task) {
@@ -55,6 +56,7 @@ foreach($tasks as $task) {
 
 echo '</ul>';
 
+// back button
 echo '<div id="back-button">
         <a href="javascript:history.back()">
             Back

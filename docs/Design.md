@@ -19,7 +19,7 @@ Gymnastics Nelson needs a list of tasks that parents and gymnasts can select and
 
 The clients of the business will be parents or gymnasts who want to help out in Gymnastics Nelson.
 
-The clients want a way to see the list of tasks and when it needs to be done. They could do this via computor or mobile phone, but they might not be experienced using technology, so they system needs to be easy to use and requires little experience with technology.
+The clients want a way to see the list of tasks and when it needs to be done. They could do this via computer or mobile phone, but they might not be experienced using technology, so they system needs to be easy to use and requires little experience with technology.
 
 ### Proposed Solution
 
@@ -40,7 +40,7 @@ The usability implications of a digital outcome relates to how easy it is for th
 
 I will need to design my system to be as easy as possible to use because some of the parents of the gymnasts may not be as experienced in using technology as others. I will need to make sure my website can be used everyone no matter what experience they have.
 
-When I am designing my websites UI I will refer to Nielson's heuristics, this is so my website can be easy to use. For my website I am going to aim for it to look simple and only show necessary information, I will also aim to keep the UI consistent, as well as preventing the user from making errors.
+When I am designing my websites UI I will refer to Nielsen's heuristics, this is so my website can be easy to use. For my website I am going to aim for it to look simple and only show necessary information, I will also aim to keep the UI consistent, as well as preventing the user from making errors.
 To verify this I will test the UI with my users to get feedback which will allow me to improve on my design.
 
 ### Functionality
@@ -72,7 +72,7 @@ When designing my website I will need to ensure that I know as much as I can abo
 
 The social implications of a digital outcome involve how it affects users, the wider community and society as a whole.
 
-Social is relevant to my website because I don't want to cause offence to anyone or stigmatise or stereotype particular social groups.
+Social is relevant to my website because I don't want to cause offense to anyone or stigmatise or stereotype particular social groups.
 
 When designing my website I will avoid using racist or sexist language or images, as well as using gender neutral language where possible. I will also avoid promoting activities that have a negative impact on people / society (e.g. gambling, drinking, drugs, etc.). I will also make it suitable for all ages.
 
@@ -101,7 +101,7 @@ When designing my website I will avoid using racist or sexist language or images
 My final database structure is very similar to my design, however I have added an amount column into tasks table.
 
 ### User Interface Design
-The category and task list items are closer together than the design, this is because if there is a lot of tasks the user will have to scroll longer since they are seperated.
+The category and task list items are closer together than the design, this is because if there is a lot of tasks the user will have to scroll longer since they are separated.
 ![Home page UI](images/UI-index.png)
 
 ![Form UI](images/UI-form.png)
@@ -116,7 +116,7 @@ The category and task list items are closer together than the design, this is be
 ### Meeting the Needs of the Users
 
 
-I have met the needs of the users by ensuring they can sign up for a task on a phone or computer, and making sure the webiste doesn't need a lot of experience using technology by having a title at the top of each screen showing what is being displayed.
+I have met the needs of the users by ensuring they can sign up for a task on a phone or computer, and making sure the website doesn't need a lot of experience using technology by having a title at the top of each screen showing what is being displayed.
 
 
 
@@ -129,7 +129,7 @@ I met the system requirements by having a list of tasks so the user can sign up 
 
 ### Review of usability
 
-I addressed the usability implication by using Neilsen's heuristics as stated below.
+I addressed the usability implication by using Nielsen's heuristics as stated below.
 
 I showed visibility of system status by displaying a "thank you for signing up" message after the user signs up for a task
 ![Visibility of system status](images/visibility-system-status.png)
@@ -175,7 +175,7 @@ I showed the heuristic help users recognize, diagnose, and recover from errors b
 ![Helps users recognize, diagnose, and recover from errors](images/help-recover-errors.png)
 
 
-I did not feel that the heuristic help and documentation was needed as the website is simple to use and the users shouldn't need any help when using the webite.
+I did not feel that the heuristic help and documentation was needed as the website is simple to use and the users shouldn't need any help when using the website.
 
 
 
@@ -184,7 +184,7 @@ I did not feel that the heuristic help and documentation was needed as the websi
 
 ### Review of functionality
 
-I addupposed to for example, the user signing up for a task, the task amount decreasing by 1 after every sign up, the admin being able to add and delete a task, as well as the admin being able to see who has signed up for each task. I have ensured that there are no bugs in the website and does not crash.
+I addressed the functionality implication by making sure the website does everything it is supposed to do for example, the user signing up for a task, the task amount decreasing by 1 after every sign up, the admin being able to add and delete a task, as well as the admin being able to see who has signed up for each task. I have also ensured that there are no bugs in the website and does not crash, I did this by testing each input that the user can do on the website as well as letting my client test it. Doing this made sure that if there were any bugs I could know where it is and fix it easily.
 
 
 
@@ -192,7 +192,7 @@ I addupposed to for example, the user signing up for a task, the task amount dec
 
 
 
-I used the implication aesthetic by using fonts and colours that work well together and pleased the user. The font I used was sans serif which uses very simple letter formation which makes it easier to read. The colours I used were red, white, and varying shades of blue. These colours matched the Gymnastics Nelson logo. I chose to use white text on the darker blue background becausse it stands out is easy to read.
+I used the implication aesthetic by using fonts and colours that work well together and pleased the user. The font I used was sans serif which uses very simple letter formation which makes it easier to read. The colours I used were red, white, and varying shades of blue. These colours matched the Gymnastics Nelson logo. I chose to use white text on the darker blue background because it stands out is easy to read.
 
 ![Aesthetic implication](images/aesthetic-implication.png)
 
@@ -200,7 +200,7 @@ I used the implication aesthetic by using fonts and colours that work well toget
 
 ### Review of end-user
 
-I addressed the end-user implication by finding out who my end-users are and by using language that could be easily understood by the end-user. For this website for Gymnastics Nelson my end-users are the parents, grandparents or adult family members of gymnasts. I also made sure that this website could be accessible and worked well on all devices that my end-users will be using. Even thought the main device my end-ussers will be using are phones, I made it work well phones, laptops, and ipads/tablets.
+I addressed the end-user implication by finding out who my end-users are and by using language that could be easily understood by the end-user. For this website for Gymnastics Nelson my end-users are the parents, grandparents or adult family members of gymnasts. I also made sure that this website could be accessible and worked well on all devices that my end-users will be using. Even thought the main device my end-users will be using are phones, I made it work well phones, laptops, and ipads/tablets.
 
 ![End-user laptop](images/end-user-laptop.png)
 ![End-user phone](images/end-user-phone.png)

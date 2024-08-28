@@ -88,13 +88,13 @@ My client said
 
 ![alt text](images/figma-UI-designv6.png)
 
-I was pleased that my client was happy with the design and decided to slightly round the buttons so they didn't look as rectangular. I decided to leave the boxes in the forms when the user is inputing text. 
+I was pleased that my client was happy with the design and decided to slightly round the buttons so they didn't look as rectangular. I decided to leave the boxes in the forms when the user is inputting text. 
 
 # 14/06/2024
 
 My client and I discussed about what colours to use for the design.
 My client said
->I would like the colours of the website to incorporate the samecolours as the Gymnastics Nelson logo which is blue, red and white. I feel that this would be important in retaining the Gymnastics Nelson identity.
+>I would like the colours of the website to incorporate the same colours as the Gymnastics Nelson logo which is blue, red and white. I feel that this would be important in retaining the Gymnastics Nelson identity.
 
 We talked about where to put the colours and decided on this
 ![Figma UI design with colour](images/figma-UI-design-colour.png)
@@ -186,9 +186,9 @@ This means I also had to change the add task form so the admin can set an amount
 
 ![not showing if amount = 0](images/amount=0-database.png)
 
-I also made sure that a task will not be displayed if the amount remaining is 0. This is so a user cannot signup for a task that is not needed anymore.
+I also made sure that a task will not be displayed if the amount remaining is 0. This is so a user cannot sign up for a task that is not needed anymore.
 
-I showed my client how I had add a limited amount of tasks and how it didn't display if there was none remaing.
+I showed my client how I had add a limited amount of tasks and how it didn't display if there was none remaining.
 They were very pleased and said
 >This looks really good and functions nicely, now all thats needed is the colouring.
 
@@ -260,7 +260,7 @@ I did not have any errors on this page
 
 https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/snoble_waimea_school_nz/Eeq7PEgCbKRHrhkx6UIQlysBQhx56xow2gMhS6EPEPxRlA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=SRi07W
 
-The video link above shows a user signing up for a task, signing up for a task with their email already in the database, and signing up for a task they have already signed up for. It also shows that every time a user signs up for a task the amount required decreases by one until it disappears. It shows the admin logging in, deleting a task, adding a task, and veiwing the list of people who have booked the task.
+The video link above shows a user signing up for a task, signing up for a task with their email already in the database, and signing up for a task they have already signed up for. It also shows that every time a user signs up for a task the amount required decreases by one until it disappears. It shows the admin logging in, deleting a task, adding a task, and viewing the  list of people who have booked the task.
 
 https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/snoble_waimea_school_nz/Edp9WXE6F1ZFslIFoj6lF_YBP8Ba4XX520SlRvAgHAWPJg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=aHtETp
 
@@ -271,7 +271,10 @@ code commenting people list needed
 # 25/08/2024
 
 I showed the final website to my client and they said
->The Gynastics Nelson Club colours of red white and blue were represented well in the website with just the right amount of each colour used. The website is easy to use and easy for the adminstrator to set up various tasks when needed. The website was efficient at gathering the contact details of each volunteer and was clear when the tasks allocation had been used up. The website was straight forward for users to sign up for a task. I appreciated that the website adapted to differing screen sizes and devices.
+>The Gymnastics Nelson Club colours of red white and blue were represented well in the website with just the right amount of each colour used. The website is easy to use and easy for the administrator to set up various tasks when needed. The website was efficient at gathering the contact details of each volunteer and was clear when the tasks allocation had been used up. The website was straight forward for users to sign up for a task. I appreciated that the website adapted to differing screen sizes and devices.
 
-Code Spell Checker
-Street Side Software
+html checker
+
+index
+
+index admin
