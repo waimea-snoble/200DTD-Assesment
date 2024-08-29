@@ -209,7 +209,6 @@ Today I finished the css for all of the pages in my website with the suggested c
 
 ![css admin task list](images/css-admin-task-list.png)
 
-
 ![css new task](images/css-new-task-1.png)
 
 ![css new task](images/css-new-task-2.png)
@@ -218,40 +217,68 @@ Today I finished the css for all of the pages in my website with the suggested c
 
 Today I validated all of my code
 
+These are the errors in my index page
+
 ![index code validation before](images/code-valadation-index.png)
+
+I fixed all of the errors
 
 ![index code validation after](images/code-validation-after.png)
 
+This is the error in my task list page
+
 ![task list code validation before](images/code-validation-task-list.png)
+
+I fixed the error
 
 ![task list code validation after](images/code-validation-after.png)
 
+these are the errors in my email form
+
 ![email form code validation before](images/code-validation-email-form.png)
+
+I fixed all of the errors
 
 ![email form code validation after](images/code-validation-after.png)
 
+these are the errors in my user details form
+
 ![user details form code validation before](images/code-validation-user-details-form.png)
+
+I fixed all of the errors
 
 ![user details form code validation after](images/code-validation-after.png)
 
+This is the error in my admin login form
+
 ![admin login form code validation before](images/code-validation-admin-login-form.png)
+
+I fixed the error
 
 ![admin login form code validation after](images/code-validation-after.png)
 
+These are the errors in my admin index page
+
 ![index admin code validation before](images/code-validation-index-admin.png)
+
+I fixed all of the errors
 
 ![index admin code validation after](images/code-validation-after.png)
 
-I did not have any errors on this page
+I did not have any errors on admin task list page
+
 ![admin task list code validation after](images/code-validation-after.png)
 
-I did not have any errors on this page
+I did not have any errors on the admin people list page
 
 ![admin people list code validation after](images/code-validation-after.png)
 
 
+These are errors in my add task form
 
 ![add task form code validation before](images/code-validation-add-task-form.png)
+
+I fixed all of the errors
 
 ![add task form code validation after](images/code-validation-after.png)
 
@@ -272,9 +299,3 @@ code commenting people list needed
 
 I showed the final website to my client and they said
 >The Gymnastics Nelson Club colours of red white and blue were represented well in the website with just the right amount of each colour used. The website is easy to use and easy for the administrator to set up various tasks when needed. The website was efficient at gathering the contact details of each volunteer and was clear when the tasks allocation had been used up. The website was straight forward for users to sign up for a task. I appreciated that the website adapted to differing screen sizes and devices.
-
-html checker
-
-index
-
-index admin

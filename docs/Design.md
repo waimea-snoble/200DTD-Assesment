@@ -72,7 +72,7 @@ When designing my website I will need to ensure that I know as much as I can abo
 
 The social implications of a digital outcome involve how it affects users, the wider community and society as a whole.
 
-Social is relevant to my website because I don't want to cause offense to anyone or stigmatise or stereotype particular social groups.
+Social is relevant to my website because I don't want to cause offence to anyone or stigmatise or stereotype particular social groups.
 
 When designing my website I will avoid using racist or sexist language or images, as well as using gender neutral language where possible. I will also avoid promoting activities that have a negative impact on people / society (e.g. gambling, drinking, drugs, etc.). I will also make it suitable for all ages.
 
@@ -116,7 +116,7 @@ The category and task list items are closer together than the design, this is be
 ### Meeting the Needs of the Users
 
 
-I have met the needs of the users by ensuring they can sign up for a task on a phone or computer, and making sure the website doesn't need a lot of experience using technology by having a title at the top of each screen showing what is being displayed.
+I have met the needs of the users by ensuring they can sign up for a task on a phone or computer, and making sure the website doesn't need a lot of experience using technology by having a title at the top of each screen showing what is being displayed. This is important because some of the gymnasts parents or grandparents might not be as experienced as others. Making sure the website does not require a lot of experience means that anyone can contribute and help out Gymnastics Nelson.
 
 
 
@@ -131,7 +131,7 @@ I met the system requirements by having a list of tasks so the user can sign up 
 
 I addressed the usability implication by using Nielsen's heuristics as stated below.
 
-I showed visibility of system status by displaying a "thank you for signing up" message after the user signs up for a task
+I showed visibility of system status by displaying a "thank you for signing up" message after the user signs up for a task so they know that they have signed up successfully.
 ![Visibility of system status](images/visibility-system-status.png)
 
 I showed match between system and the real world by using a rubbish bin to delete a task.
@@ -192,7 +192,7 @@ I addressed the functionality implication by making sure the website does everyt
 
 
 
-I used the implication aesthetic by using fonts and colours that work well together and pleased the user. The font I used was sans serif which uses very simple letter formation which makes it easier to read. The colours I used were red, white, and varying shades of blue. These colours matched the Gymnastics Nelson logo. I chose to use white text on the darker blue background because it stands out is easy to read.
+I used the implication aesthetic by using fonts and colours that work well together and pleased the user. The font I used was sans serif which uses very simple letter formation which makes it easier to read and aesthetically pleasing. The colours I used were red, white, and varying shades of blue. These colours matched the Gymnastics Nelson logo. I chose to use white text on the darker blue background because it stands out is easy to read. I showed the website to some members of my family and they all said it looked aesthetically pleasing.
 
 ![Aesthetic implication](images/aesthetic-implication.png)
 

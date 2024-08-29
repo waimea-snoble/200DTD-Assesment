@@ -40,7 +40,7 @@ echo '<ul id="category-list">';
 foreach($tasks as $task) {
     echo '<li>';
 
-    echo   '<a href="task-list.php?cat=' . $task['category'] . '">';
+    echo   '<a href="task-list.php?cat=' . urlencode($task['category']) . '">';
     echo     $task['category'];
     echo   '</a>';
     echo '</li>';
