@@ -19,7 +19,7 @@ echo '<p>Email: ' . $email;
 //Connect to the database
 $db = connectToDB();
 
-
+// Set up query to insert people data
 $query = 'INSERT INTO people (name, phone, email) VALUES (?, ?, ?)';
 //Attempt to run the query
 
@@ -37,5 +37,5 @@ catch (PDOException $e) {
 
 consoleLog("Task ID: " . $taskID);
 consoleLog("Person ID: " . $personID);
-
+// goes to add booking page
 header('location: add-booking.php?task=' . $taskID . '&user=' . $personID );

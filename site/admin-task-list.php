@@ -46,7 +46,7 @@ foreach($tasks as $task) {
     echo '</b>';
 
 
-
+// confirm the admin wants to delete a task
     echo '<a href="delete-task.php?id=' . $task['id'] . '"
     onclick="return confirm(`Are you sure you want to delete this task?`);">🗑</a>';
 

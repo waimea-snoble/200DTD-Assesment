@@ -123,8 +123,7 @@ I have met the needs of the users by ensuring they can sign up for a task on a p
 
 ### Meeting the System Requirements
 
-I met the system requirements by having a list of tasks so the user can sign up for a task, as well as the task amount decreasing by 1 after every sign up, I have included an add and delete button so the admin can add and delete a task, as well as the admin being able to click on a task to see who has signed up for each task.
-
+I met the system requirements by having a list of tasks so the user can sign up for a task. I added a feature where there is an amount of tasks available which decreases by 1 every time the user signs up. I have included an add and delete button so the admin can add and delete a task, as well as the admin being able to click on a task to see the people who have signed up for each task.
 
 
 ### Review of usability

@@ -4,7 +4,7 @@ include 'partials/top.php';
 ?>
 
 
-
+<!-- admin login -->
 <div id="admin">
     <a href="login-form.php" class="<?= $page=='login-form.php' ? 'active' : '' ?>">Admin Login</a>
 </div>

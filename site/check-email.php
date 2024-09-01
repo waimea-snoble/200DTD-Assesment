@@ -24,14 +24,14 @@ catch (PDOException $e) {
 
 
 if (!$user) {
-    // No user exists with that email, so get their details
+    // No user exists with that email, so go to user details form to get their details
     header('location: user-details-form.php?task=' . $taskId);
 }
 else {
 
     
 
-    // User exists, so confirm booking
+    // User exists, go to add booking.php to confirm booking
     header('location: add-booking.php?task=' . $taskId . '&user=' . $user['id'] );
 
 }

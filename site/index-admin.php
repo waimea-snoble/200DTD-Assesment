@@ -3,7 +3,7 @@ require 'lib/utils.php';
 include 'partials/top-admin.php';
 ?>
 
-
+<!-- admin login -->
 <div id="admin">
 <a href="index.php" class="<?= $page=='index.php' ? 'active' : '' ?>">Logout</a>
 </div>
