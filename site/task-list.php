@@ -55,7 +55,7 @@ consoleLog($tasks);
             }
         }
         
-        
+        // message if there are no tasks available
         if ($displayedTasks === 0) {
             echo '<p>There are no tasks in this category</p>';
         }

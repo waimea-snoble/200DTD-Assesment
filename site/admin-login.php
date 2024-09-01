@@ -34,11 +34,11 @@ catch (PDOException $e) {
     die('There was an error selecting data from the database.');
 }
 
-
+// if the username and password is correct it will log th admin in
 if ($username == $admin['username'] && $password == $admin['password']) {
     header('location: index-admin.php');
 }
-
+// if the username and password is incorrect it will tell them
 else {
     echo '<br>';
     echo ' Incorrect Username or Password. ';

@@ -123,8 +123,7 @@ I have met the needs of the users by ensuring they can sign up for a task on a p
 
 ### Meeting the System Requirements
 
-I met the system requirements by having a list of tasks so the user can sign up for a task, as well as the task amount decreasing by 1 after every sign up, I have included an add and delete button so the admin can add and delete a task, as well as the admin being able to click on a task to see who has signed up for each task.
-
+I met the system requirements by having a list of tasks so the user can sign up for a task. I added a feature where there is an amount of tasks available which decreases by 1 every time the user signs up. I have included an add and delete button so the admin can add and delete a task, as well as the admin being able to click on a task to see the people who have signed up for each task.
 
 
 ### Review of usability
@@ -192,7 +191,15 @@ I addressed the functionality implication by making sure the website does everyt
 
 
 
+<<<<<<< Updated upstream
 I used the implication aesthetic by using fonts and colours that work well together and pleased the user. The font I used was sans serif which uses very simple letter formation which makes it easier to read and aesthetically pleasing. The colours I used were red, white, and varying shades of blue. These colours matched the Gymnastics Nelson logo. I chose to use white text on the darker blue background because it stands out is easy to read. I showed the website to some members of my family and they all said it looked aesthetically pleasing.
+=======
+<<<<<<< HEAD
+I used the implication aesthetic by using fonts and colours that work well together and pleased the user. The font I used was sans serif which uses very simple letter formation which makes it easier to read. The colours I used were red, white, and varying shades of blue. These colours matched the Gymnastics Nelson logo. I chose to use white text on the darker blue background because it stands out is easy to read. I tested this with my parents and brother to see if the colours were appealing and they said the colours were very nice and worked well together, and also did not hurt their eyes when they looked at it.
+=======
+I used the implication aesthetic by using fonts and colours that work well together and pleased the user. The font I used was sans serif which uses very simple letter formation which makes it easier to read and aesthetically pleasing. The colours I used were red, white, and varying shades of blue. These colours matched the Gymnastics Nelson logo. I chose to use white text on the darker blue background because it stands out is easy to read. I showed the website to some members of my family and they all said it looked aesthetically pleasing.
+>>>>>>> 8756590891065e63e9ea7d482a6c49e10bb0115b
+>>>>>>> Stashed changes
 
 ![Aesthetic implication](images/aesthetic-implication.png)
 
@@ -200,7 +207,7 @@ I used the implication aesthetic by using fonts and colours that work well toget
 
 ### Review of end-user
 
-I addressed the end-user implication by finding out who my end-users are and by using language that could be easily understood by the end-user. For this website for Gymnastics Nelson my end-users are the parents, grandparents or adult family members of gymnasts. I also made sure that this website could be accessible and worked well on all devices that my end-users will be using. Even thought the main device my end-users will be using are phones, I made it work well phones, laptops, and ipads/tablets.
+I addressed the end-user implication by finding out who my end-users are and by using language that could be easily understood by the end-user. For this website for Gymnastics Nelson my end-users are the parents, grandparents or adult family members of gymnasts. I also made sure that this website could be accessible and worked well on all devices that my end-users will be using. Even thought the main device my end-users will be using are phones, I made it work well on phones, laptops, and ipads/tablets.
 
 ![End-user laptop](images/end-user-laptop.png)
 ![End-user phone](images/end-user-phone.png)
@@ -212,5 +219,4 @@ I addressed the end-user implication by finding out who my end-users are and by 
 ### Review of Social
 
 
-
-I addressed the social implication by not using any racist or sexist language. The language that I choose to use was basic such as, admin login, add, back, submit. This also means that it is suitable for all ages. On my website there was opportunity to use gender neutral language. I also did not promote anything that will have a negative impact on society such as gambling, drinking, and drugs. 
+I addressed the social implication by not using any racist or sexist language. The language that I choose to use was basic such as, admin login, add, back, submit. There i did not use any bad language. This also means that it is suitable for all ages. On my website there was opportunity to use gender neutral language. I also did not promote anything that will have a negative impact on society such as gambling, drinking, and drugs.

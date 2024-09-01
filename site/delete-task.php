@@ -24,4 +24,5 @@ catch (PDOException $e) {
     consoleLog($e->getmessage(), 'DB List Fetch', ERROR);
     die('There was an error deleting task data from the database');
 }
+// goes to homepage
 header('location: index-admin.php');

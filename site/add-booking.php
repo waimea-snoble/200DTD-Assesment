@@ -57,17 +57,9 @@ catch (PDOException $e) {
     die('There was an error updating task data from the database');
 }
 }
+// tells the user they have already booked this task
 else {
  echo '<p>You have already booked this task</p>';
 } 
-
-
-
-
-
-
-
-
-// header('location: index.php');
 
 include 'partials/bottom.php'; ?>
