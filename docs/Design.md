@@ -189,17 +189,8 @@ I addressed the functionality implication by making sure the website does everyt
 
 ### Review of aesthetic
 
+I used the implication aesthetic by using fonts and colours that work well together and pleased the user. The font I used was sans serif which uses very simple letter formation which makes it easier to read. The colours I used were red, white, and varying shades of blue. These colours matched the Gymnastics Nelson logo. I chose to use white text on the darker blue background because it stands out and is easy to read. I tested this with my parents and brother to see if the colours were appealing and they said the colours were very nice and worked well together, and also did not hurt their eyes when they looked at it.
 
-
-<<<<<<< Updated upstream
-I used the implication aesthetic by using fonts and colours that work well together and pleased the user. The font I used was sans serif which uses very simple letter formation which makes it easier to read and aesthetically pleasing. The colours I used were red, white, and varying shades of blue. These colours matched the Gymnastics Nelson logo. I chose to use white text on the darker blue background because it stands out is easy to read. I showed the website to some members of my family and they all said it looked aesthetically pleasing.
-=======
-<<<<<<< HEAD
-I used the implication aesthetic by using fonts and colours that work well together and pleased the user. The font I used was sans serif which uses very simple letter formation which makes it easier to read. The colours I used were red, white, and varying shades of blue. These colours matched the Gymnastics Nelson logo. I chose to use white text on the darker blue background because it stands out is easy to read. I tested this with my parents and brother to see if the colours were appealing and they said the colours were very nice and worked well together, and also did not hurt their eyes when they looked at it.
-=======
-I used the implication aesthetic by using fonts and colours that work well together and pleased the user. The font I used was sans serif which uses very simple letter formation which makes it easier to read and aesthetically pleasing. The colours I used were red, white, and varying shades of blue. These colours matched the Gymnastics Nelson logo. I chose to use white text on the darker blue background because it stands out is easy to read. I showed the website to some members of my family and they all said it looked aesthetically pleasing.
->>>>>>> 8756590891065e63e9ea7d482a6c49e10bb0115b
->>>>>>> Stashed changes
 
 ![Aesthetic implication](images/aesthetic-implication.png)
 
@@ -219,4 +210,4 @@ I addressed the end-user implication by finding out who my end-users are and by 
 ### Review of Social
 
 
-I addressed the social implication by not using any racist or sexist language. The language that I choose to use was basic such as, admin login, add, back, submit. There i did not use any bad language. This also means that it is suitable for all ages. On my website there was opportunity to use gender neutral language. I also did not promote anything that will have a negative impact on society such as gambling, drinking, and drugs.
+I addressed the social implication by not using any racist or sexist language. The language that I choose to use was basic such as, admin login, add, back, submit. Therefore i did not use any bad language. This also means that it is suitable for all ages. On my website there was no opportunity to use gender neutral language. I also did not promote anything that will have a negative impact on society such as gambling, drinking, and drugs.
