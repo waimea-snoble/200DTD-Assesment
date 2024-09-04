@@ -13,21 +13,21 @@ Assessment Standards: **91892** and **91893**
 
 ### Identified Need or Problem
 
-Gymnastics Nelson needs a list of tasks that parents and gymnasts can select and sign up for. They also need to track the people that sign up for a task.
+Gymnastics Nelson needs a list of tasks that parents and gymnast's family members can select and sign up for volunteering at the Top of The South Gymnastics Competition with either food production or helping with the equipment. The admin at Gymnastics Nelson also need to track the people that sign up for a task.
 
 ### End-User Requirements
 
-The clients of the business will be parents or gymnasts who want to help out in Gymnastics Nelson.
+The clients of the business will be parents or family members of gymnasts who want to help out in Gymnastics Nelson competition at the Trafalgar Centre.
 
-The clients want a way to see the list of tasks and when it needs to be done. They could do this via computer or mobile phone, but they might not be experienced using technology, so they system needs to be easy to use and requires little experience with technology.
+The clients want a way to see the list of tasks and when the task needs to be completed. They could do this via computer or mobile phone, but they might not be experienced using technology, so they system needs to be easy to use and requires little experience with technology.
 
 ### Proposed Solution
 
-The proposed solution is having a website for Gymnastics Nelson that allows gymnastics coaches, parents, and gymnasts to view a list of tasks and sign up for them.
+The proposed solution is having a website for Gymnastics Nelson that allows gymnastics coaches, parents, and gymnast's family members to view a list of tasks and sign up for them.
 
-The website will also allow the coaches to add, or delete tasks.
+The website will also allow the organisers of the event to add or delete tasks.
 
-Clients should be able to sign up for a task, and the admin can see who has signed up for each task.
+Clients should be able to sign up for a task, and the admin can see who has signed up for each task and also delete or add a task if necessary.
 
 
 -------------------------------------------------
@@ -38,27 +38,27 @@ Clients should be able to sign up for a task, and the admin can see who has sign
 
 The usability implications of a digital outcome relates to how easy it is for the end-user to use the website, without the need for help or guidance.
 
-I will need to design my system to be as easy as possible to use because some of the parents of the gymnasts may not be as experienced in using technology as others. I will need to make sure my website can be used everyone no matter what experience they have.
+I will need to design my system to be as easy as possible to use because some of the parents of the gymnasts may not be as experienced in using technology as others. I will need to make sure my website is user friendly and can be used by everyone no matter what experience they have.
 
-When I am designing my websites UI I will refer to Nielsen's heuristics, this is so my website can be easy to use. For my website I am going to aim for it to look simple and only show necessary information, I will also aim to keep the UI consistent, as well as preventing the user from making errors.
+When I am designing my website's UI I will refer to Nielsen's heuristics, this is so my website can be easy to use. For my website I am going to aim for it to look simple and only show the necessary information. I will also aim to keep the UI consistent, as well as preventing the user from making errors.
 To verify this I will test the UI with my users to get feedback which will allow me to improve on my design.
 
 ### Functionality
 
 The functionality implications a digital outcome relates to how well it works for the end-user, in terms of meeting its intended purpose.
 
-Functionality is relevant to my website because it is important to have a functional website so that users will not have a hard time using it.
+Functionality is relevant to my website because it is important to have a functional website so that users will not have a hard time using it and also so that no errors will happen when the website is being used.
 
-When designing my website i will consider how functional it is by making sure it does everything it needs to do and meets the purpose of the website. I will also need to ensure that there are no bugs in the website, it does not crash, and works as intended from the users point of view.
+When designing my website I will consider how functional it is by making sure it does everything it needs to do and meets the purpose of the website. I will also need to ensure that there are no bugs in the website, it does not crash, and works as intended from the users point of view.
 To verify this I will test the functionality of the website with myself or with my users, I will use the feedback to improve on the functionality.
 
 ### Aesthetic
 
 The aesthetic implications of a digital outcome will relate to how it good it looks in terms of the design.
 
-Aesthetic is relevant to my website because it is important that it appeals to the users, and follows the design conventions
+Aesthetic is relevant to my website because it is important that it appeals to the users, and follows the design conventions.
 
-When designing my website I will consider how aesthetic it looks by creating an overall design that is suitable for the websites purpose as well as making it look good and ensuring that it appeal to the users. To do this I will choose certain colours and fonts that work well together so it pleases the users. I will position and group elements together in a way that is balanced and focuses the users attention. I will use feedback to improve my design.
+When designing my website I will consider how aesthetic it looks by creating an overall design that is suitable for the websites purpose as well as making it look good and ensuring that it appeals to the users. To do this I will choose certain colours and fonts that work well together so it pleases the users. I will position and group elements together in a way that is balanced and focuses the users attention. I will use feedback to improve my design.
 
 ### End-user
 
@@ -72,7 +72,7 @@ When designing my website I will need to ensure that I know as much as I can abo
 
 The social implications of a digital outcome involve how it affects users, the wider community and society as a whole.
 
-Social is relevant to my website because I don't want to cause offence to anyone or stigmatise or stereotype particular social groups.
+The social implication is relevant to my website because I don't want to cause offence to anyone or stigmatise or stereotype particular social groups.
 
 When designing my website I will avoid using racist or sexist language or images, as well as using gender neutral language where possible. I will also avoid promoting activities that have a negative impact on people / society (e.g. gambling, drinking, drugs, etc.). I will also make it suitable for all ages.
 
@@ -116,7 +116,7 @@ The category and task list items are closer together than the design, this is be
 ### Meeting the Needs of the Users
 
 
-I have met the needs of the users by ensuring they can sign up for a task on a phone or computer, and making sure the website doesn't need a lot of experience using technology by having a title at the top of each screen showing what is being displayed. This is important because some of the gymnasts parents or grandparents might not be as experienced as others. Making sure the website does not require a lot of experience means that anyone can contribute and help out Gymnastics Nelson.
+I have met the needs of the users by ensuring they can sign up for a task on a phone or computer, and making sure the website doesn't need a lot of experience using technology by having a title at the top of each screen showing what is being displayed. This is important because some of the gymnasts parents or grandparents might not be as experienced as others. Making sure the website does not require a lot of experience means that anyone can contribute and help out at the Gymnastics Nelson competition.
 
 
 
@@ -183,7 +183,7 @@ I did not feel that the heuristic help and documentation was needed as the websi
 
 ### Review of functionality
 
-I addressed the functionality implication by making sure the website does everything it is supposed to do for example, the user signing up for a task, the task amount decreasing by 1 after every sign up, the admin being able to add and delete a task, as well as the admin being able to see who has signed up for each task. I have also ensured that there are no bugs in the website and does not crash, I did this by testing each input that the user can do on the website as well as letting my client test it. Doing this made sure that if there were any bugs I could know where it is and fix it easily.
+I addressed the functionality implication by making sure the website does everything it is supposed to do for example, the user signing up for a task, the task amount decreasing by 1 after every sign up, the admin being able to add and delete a task, as well as the admin being able to see who has signed up for each task. I have also ensured that there are no bugs in the website and does not crash. I did this by testing each input that the user can do on the website as well as letting my client test it. Doing this made sure that if there were any bugs I could know where it is and fix it easily.
 
 
 
@@ -210,4 +210,4 @@ I addressed the end-user implication by finding out who my end-users are and by 
 ### Review of Social
 
 
-I addressed the social implication by not using any racist or sexist language. The language that I choose to use was basic such as, admin login, add, back, submit. Therefore i did not use any bad language. This also means that it is suitable for all ages. On my website there was no opportunity to use gender neutral language. I also did not promote anything that will have a negative impact on society such as gambling, drinking, and drugs.
+I addressed the social implication by not using any racist or sexist language. The language that I choose to use was basic such as, admin login, add, back, submit. Therefore I did not use any bad language. This also means that it is suitable for all ages. On my website there was no opportunity to use gender neutral language. I also did not promote anything that will have a negative impact on society such as gambling, drinking, and drugs.
