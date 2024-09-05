@@ -39,33 +39,36 @@ Today I drafted the first figma UI design so I could see how my website would lo
 I got feedback from my client and they said
 >Instead of having the user input their surname and forename separately, it will be easier for them input at the same time. Add an option for the user to input their email because that is the way they will be contacted.
 
-![Feedback for figma UI design](images/figma-feedback.png)  
 I responded to this feedback by removing the surname option and just having full name option. I also made sure the end-user can input their email as this will be the main form of contacting the end-user.
+![Feedback for figma UI design](images/figma-feedback.png)  
 
-![Database design v2](images/database-designv2.png)
 Since my client wanted the end-user to input their full name and email, I needed to change the database design
+![Database design v2](images/database-designv2.png)
 
-![Figma UI design v2](images/figma-UI%20designv2.png)
 Today I added an option for the admin to login, but I couldn't finish the delete task button. I also added the date next to the task. Accidentally clicked on the top task button, not meant to have blue outline.
+![Figma UI design v2](images/figma-UI%20designv2.png)
+
 
 ### 27/05/2024
 
 Today I am finishing the admin log in page.
 
-![Figma UI design v3](images/figma-UI-designv3.png)
 I finished the admin login page, finishing the delete task button and adding an add task button. I also made it so the admin can click on a task to see the people doing that task, as well as their contact information.
+![Figma UI design v3](images/figma-UI-designv3.png)
 
-![Flowchart v2](images/flowchartv2.png)
 Today I have also changed the flowchart to show that the admin can view what people are doing the task.
+![Flowchart v2](images/flowchartv2.png)
+
 
 ### 30/05/2024
 
 I got feedback from my client and they said
 >When the admin is deleting a task instead of having the task confirmation on a new page, just have it on the same page. This is because it looks less confusing when it is kept on the same page.
 
+I responded to this feedback by doing what they said and making the it overlap the page.
 ![Figma UI design v4](images/figma-UI-designv4.png)
 
-I responded to this feedback by doing what they said and making the it overlap the page.
+
 
 ### 11/06/2024
 
@@ -75,20 +78,24 @@ I got more feedback from my client and they said
 My client also said
 >I felt that the login at the top of the page might be confusing for volunteers signing up for the tasks, as they might feel that they have to login.
 
-![Figma UI design v5](images/figma-UI-designv5.png)
-I listened to my client and moved the login button to the bottom of the page and changed the name to admin login. I also made sure there was a category list to make it easier for the end-user to book a task that they want to do. I also made it so when the admin is adding a task they can choose a category that the task will go into.
 
-![Database design v3](images/database-designv3.png)
+I listened to my client and moved the login button to the bottom of the page and changed the name to admin login. I also made sure there was a category list to make it easier for the end-user to book a task that they want to do. I also made it so when the admin is adding a task they can choose a category that the task will go into.
+![Figma UI design v5](images/figma-UI-designv5.png)
+
+
 I changed the database so that a task can belong to a category.
+![Database design v3](images/database-designv3.png)
+
 
 ### 13/06/2024
 
 My client said
 >The design looks great and it is easy to use. The buttons might look nicer if they were slightly rounded but I think that this will work extremely well with the gymnastics families signing up for tasks needing completed for the gymnastics competition. I am very happy with the result.
 
-![alt text](images/figma-UI-designv6.png)
 
 I was pleased that my client was happy with the design and decided to slightly round the buttons so they didn't look as rectangular. I decided to leave the boxes in the forms when the user is inputting text. 
+![alt text](images/figma-UI-designv6.png)
+
 
 # 14/06/2024
 
@@ -102,9 +109,11 @@ We talked about where to put the colours and decided on this
 My client also said
 >I loved the red buttons on some of the pages however there isn't red on every page, it might be nice to have a thin strip of red under the title.
 
-![Final figma UI design](images/final-figma-UI-design.png)
 
 I responded to my clients feedback by putting a thin strip of red under the title. My client id happy with the final result.
+![Final figma UI design](images/final-figma-UI-design.png)
+
+
 
 # 27/06/2024
 
@@ -170,19 +179,19 @@ I realised that if a user is signing up for multiple tasks they wont want to fil
 I showed this initial draft to my client and they said
 >It works very nicely but I have just realised that there is no limited amount of tasks available. This means 100 people can book the same task which is a problem if there is only 5 people needed.
 
+For this to work I needed to add an amount column to the database.
 ![database](images/database.png)
 
-For this to work I needed to add an amount column to the database.
-
-![limited number of tasks available](images/amount-remaining.png)
 
 I listened to my client and added a limit to how many tasks can be booked
+![limited number of tasks available](images/amount-remaining.png)
+
+This means I also had to change the add task form so the admin can set an amount available for each task
 
 ![add task with amount](images/add-taskv3.png)
 
-I also needed to add an amount column to the database
 
-This means I also had to change the add task form so the admin can set an amount available for each task
+
 
 ![not showing if amount = 0](images/amount=0-database.png)
 
