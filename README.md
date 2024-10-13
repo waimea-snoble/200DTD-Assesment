@@ -14,9 +14,11 @@ This project is a system that will allow a user to select a task at Gymnastics N
 
 The following documents support this project:
 
-- [Design & Review](Design.md)
-- [Development & Testing](Development.md)
+- [Design & Review](docs/Design.md)
+- [Development & Testing](docs/Development.md)
 
 ## Admin username and password
+
 username: snoble
+
 password: password
